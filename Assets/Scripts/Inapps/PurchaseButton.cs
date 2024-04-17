@@ -4,7 +4,6 @@ using YG.Utils.Pay;
 
 public class PurchaseButton : MonoBehaviour
 {
-    [SerializeField] private CanvasGroup _purchase;
     [SerializeField] private string _id;
 
     private void OnTriggerEnter(Collider other)

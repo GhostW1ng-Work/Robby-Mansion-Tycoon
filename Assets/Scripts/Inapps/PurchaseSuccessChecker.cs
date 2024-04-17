@@ -1,3 +1,4 @@
+using StarterAssets;
 using UnityEngine;
 using YG;
 
@@ -5,6 +6,7 @@ public class PurchaseSuccessChecker : MonoBehaviour
 {
     [SerializeField] private PlayerWallet _wallet;
     [SerializeField] private MoneyEarner _moneyEarner;
+    [SerializeField] private StarterAssetsInputs _input;
 
     private void OnEnable()
     {
@@ -28,6 +30,9 @@ public class PurchaseSuccessChecker : MonoBehaviour
                 break;
             case "x2money":
                 _moneyEarner.DoubleMultiplier();
+                break;
+            case "speedBoost":
+                _input.SetSprint();
                 break;
         }
     }
