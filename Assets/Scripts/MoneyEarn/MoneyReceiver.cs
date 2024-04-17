@@ -33,9 +33,12 @@ public class MoneyReceiver : MonoBehaviour
         }
     }
 
-    private void OnMoneyEarned(int earnedMoney)
+    private void OnMoneyEarned(int earnedMoney, bool hasMagnet)
     {
-        _moneyCount += earnedMoney;
-        _moneyText.text = _moneyCount.ToString();
+        if(!hasMagnet)
+        {
+            _moneyCount += earnedMoney;
+            _moneyText.text = _moneyCount.ToString();
+        }
     }
 }
