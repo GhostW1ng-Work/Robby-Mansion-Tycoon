@@ -14,21 +14,28 @@ public class EarnPerSecUpdater : MonoBehaviour
 
     private void Start()
     {
-        _text.text = $"${_earner.CurrentEarnPerSecond}/sec";
+        _text.text = $"${_earner.CurrentEarnPerSecond * _earner.CurrentMultiplier}/sec";
     }
 
     private void OnEnable()
     {
         _earner.LevelIncreased += OnLevelIncreased;
+        _earner.MultiplierChanged += OnMultiplierChanged;
     }
 
     private void OnDisable()
     {
         _earner.LevelIncreased -= OnLevelIncreased;
+        _earner.MultiplierChanged -= OnMultiplierChanged;
     }
 
     private void OnLevelIncreased()
     {
-        _text.text = $"${_earner.CurrentEarnPerSecond}/sec";
+        _text.text = $"${_earner.CurrentEarnPerSecond * _earner.CurrentMultiplier}/sec";
+    }
+
+    private void OnMultiplierChanged()
+    {
+        _text.text = $"${_earner.CurrentEarnPerSecond * _earner.CurrentMultiplier}/sec";
     }
 }
