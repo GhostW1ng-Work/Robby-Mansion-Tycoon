@@ -36,11 +36,6 @@ public class MoneyEarner : MonoBehaviour
         {
             _hasMagnet = !_hasMagnet;
         }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            _currentMultiplier = 2;
-            MultiplierChanged?.Invoke();
-        }
     }
 
     public void IncreaseEarnPerSecond()
@@ -53,5 +48,16 @@ public class MoneyEarner : MonoBehaviour
         _currentLevel++;
         _currentEarnPerSecond++;
         LevelIncreased?.Invoke();
+    }
+
+    public void DoubleMultiplier()
+    {
+        _currentMultiplier = 2;
+        MultiplierChanged?.Invoke();
+    }
+
+    public void SetHasMagnet()
+    {
+        _hasMagnet = true;
     }
 }
