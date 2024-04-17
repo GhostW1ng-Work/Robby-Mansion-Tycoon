@@ -17,6 +17,16 @@ public class MoneyEarner : MonoBehaviour
     public Action LevelIncreased;
     public Action MultiplierChanged;
 
+    private void OnEnable()
+    {
+        Builder.BuildCreated += OnBuildCreated;
+    }
+
+    private void OnDisable()
+    {
+        Builder.BuildCreated -= OnBuildCreated;
+    }
+
     private void Update()
     {
             _timeLeft -= Time.deltaTime;
@@ -26,21 +36,6 @@ public class MoneyEarner : MonoBehaviour
                 _timeLeft = 1;
                 MoneyEarned?.Invoke(_currentEarnPerSecond * _currentMultiplier,_hasMagnet );
             }
-
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            IncreaseLevel();
-        }
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            _hasMagnet = !_hasMagnet;
-        }
-    }
-
-    public void IncreaseEarnPerSecond()
-    {
-        _currentEarnPerSecond++;
     }
 
     public void IncreaseLevel()
@@ -48,6 +43,11 @@ public class MoneyEarner : MonoBehaviour
         _currentLevel++;
         _currentEarnPerSecond++;
         LevelIncreased?.Invoke();
+    }
+
+    private void OnBuildCreated()
+    {
+        IncreaseLevel();
     }
 
     public void DoubleMultiplier()

@@ -433,28 +433,14 @@ GameObject:
   - component: {fileID: 383310786}
   - component: {fileID: 383310785}
   - component: {fileID: 383310784}
-  - component: {fileID: 383310783}
+  - component: {fileID: 383310789}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: BuyInterier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &383310783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383310782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3efb9c0d1583bf4bbaceab9f8ec5bf0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _purchase: {fileID: 1330803497}
-  _id: x2money
 --- !u!54 &383310784
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -562,12 +548,26 @@ Transform:
   m_GameObject: {fileID: 383310782}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.69, y: 0.5, z: 4.98}
+  m_LocalPosition: {x: -7.48, y: 0.5, z: 4.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383310789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383310782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6353858f8c2b81438b23cc5b13ff86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _building: {fileID: 4121387533908283052, guid: 8e527a71344a5134bb51249e730de5d0, type: 3}
+  _price: 10
 --- !u!1 &520474028
 GameObject:
   m_ObjectHideFlags: 0

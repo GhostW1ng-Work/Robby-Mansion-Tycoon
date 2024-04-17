@@ -7,6 +7,8 @@ public class PlayerWallet : MonoBehaviour
 
     private int _currentMoney = 100;
 
+    public int CurrentMoney => _currentMoney;
+
     public event Action<int> MoneyChanged;
 
     private void Start()
@@ -27,6 +29,12 @@ public class PlayerWallet : MonoBehaviour
     public void AddMoney(int money)
     {
         _currentMoney += money;
+        MoneyChanged?.Invoke(_currentMoney);
+    }
+
+    public void SpendMoney(int money)
+    {
+        _currentMoney -= money;
         MoneyChanged?.Invoke(_currentMoney);
     }
 
