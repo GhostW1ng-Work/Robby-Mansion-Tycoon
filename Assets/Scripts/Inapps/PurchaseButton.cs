@@ -3,14 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using YG;
+using YG.Utils.Pay;
 
 public class PurchaseButton : MonoBehaviour
 {
     [SerializeField] private CanvasGroup _purchase;
+    public static string langPayments = "ru";
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out PlayerWallet player))
+        if (other.TryGetComponent(out PlayerWallet player))
         {
             print("зашли");
             _purchase.alpha = 1;

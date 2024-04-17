@@ -3,6 +3,7 @@ using YG;
 
 public class PurchaseSuccessChecker : MonoBehaviour
 {
+    [SerializeField] private PlayerWallet _wallet;
     private void OnEnable()
     {
         YandexGame.PurchaseSuccessEvent += OnPurchaseSuccess;
@@ -16,8 +17,8 @@ public class PurchaseSuccessChecker : MonoBehaviour
     {
         switch (id)
         {
-            case "test":
-                Debug.Log(id);
+            case "buy250k":
+                _wallet.AddMoney(250);
                 break;
         }
     }

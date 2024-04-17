@@ -395,7 +395,7 @@ namespace YG
             },
             new Purchase
             {
-                id = "grenade",
+                id = "buy250k",
                 title = "Grenade",
                 description = "Product - Grenade",
                 imageURI = "https://justplaygames.ru/public/Paymant3.png",

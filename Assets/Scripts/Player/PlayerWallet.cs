@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerWallet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int _currentMoney = 100;
+
+    public event Action<int> MoneyChanged;
+
+    private void Start()
     {
-        
+        MoneyChanged?.Invoke(_currentMoney);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddMoney(int money)
     {
-        
+        _currentMoney += money;
+        MoneyChanged?.Invoke(_currentMoney);
     }
 }
