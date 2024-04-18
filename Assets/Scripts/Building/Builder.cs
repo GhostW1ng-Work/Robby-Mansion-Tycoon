@@ -12,12 +12,12 @@ public class Builder : MonoBehaviour
 
     private void Start()
     {
-        if(YandexGame.savesData.firstRoomLevel == 0)
+        if(YandexGame.savesData.buildingLevel == 0)
         {
             transform.position = _nextBuilderPositions[0];
         }
 
-        for (int i = 0; i < YandexGame.savesData.firstRoomLevel; i++)
+        for (int i = 0; i < YandexGame.savesData.buildingLevel; i++)
         {
             Building building = _buildings[i];
 
@@ -37,10 +37,10 @@ public class Builder : MonoBehaviour
             if (wallet.CurrentMoney >= _price)
             {
                 BuildCreated?.Invoke();
-                YandexGame.savesData.firstRoomLevel++;
+                YandexGame.savesData.buildingLevel++;
                 YandexGame.SaveProgress();
                 wallet.SpendMoney(_price);
-                Build(YandexGame.savesData.firstRoomLevel);
+                Build(YandexGame.savesData.buildingLevel);
             }
         }
     }

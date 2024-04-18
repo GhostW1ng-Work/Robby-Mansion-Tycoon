@@ -17,7 +17,7 @@ namespace YG
         public bool[] openLevels = new bool[3];
 
         // Ваши сохранения
-        public int firstRoomLevel = 0;
+        public int buildingLevel = 0;
         public int playerMoney = 0;
         public int currentMultiplier = 1;
         public int earnPerSecond = 10;
