@@ -291,10 +291,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2142109901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.85}
-  m_AnchorMax: {x: 0.105000004, y: 0.93500006}
-  m_AnchoredPosition: {x: 0.18115234, y: -0.9000244}
-  m_SizeDelta: {x: -0.3620987, y: -1}
+  m_AnchorMin: {x: 0.008, y: 0.85}
+  m_AnchorMax: {x: 0.15400001, y: 0.93166673}
+  m_AnchoredPosition: {x: -0.33728027, y: 0.099975586}
+  m_SizeDelta: {x: -0.67870045, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72981798
 MonoBehaviour:
@@ -1110,6 +1110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _marketPanel: {fileID: 2026885937}
+  _wallet: {fileID: 1524649356}
 --- !u!4 &383310788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934196940466492326, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
@@ -3700,9 +3701,9 @@ RectTransform:
   m_Father: {fileID: 2142109901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.94000006}
-  m_AnchorMax: {x: 0.105000004, y: 0.975}
-  m_AnchoredPosition: {x: -0.1809082, y: 0.4724121}
-  m_SizeDelta: {x: -0.3621, y: -1.9447994}
+  m_AnchorMax: {x: 0.15400001, y: 0.97333336}
+  m_AnchoredPosition: {x: -0.058502197, y: 0.5}
+  m_SizeDelta: {x: -0.7561002, y: -0.9448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587577245
 MonoBehaviour:

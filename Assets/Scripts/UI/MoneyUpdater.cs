@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Globalization;
 
 public class MoneyUpdater : MonoBehaviour
 {
@@ -24,6 +25,15 @@ public class MoneyUpdater : MonoBehaviour
 
     private void OnMoneyChanged(int money)
     {
-        _text.text = money.ToString();
+        if ((decimal)money >= 100000)
+        {
+            _text.text = "$" + money.ToString("#,#", CultureInfo.InvariantCulture);
+        }
+
+
+/*        else if (money >= 100000)
+            _text.text = $"${(money / 100000):F4}";*/
+        else
+            _text.text = $"${(decimal)money}";
     }
 }

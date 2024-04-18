@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class OpenMarketButton : MonoBehaviour
 {
     [SerializeField] private CanvasGroup _marketPanel;
+    [SerializeField] private PlayerWallet _wallet;
 
     private bool _isOpen = false;
     private Button _button;
@@ -37,6 +38,7 @@ public class OpenMarketButton : MonoBehaviour
 
     private void OnClick()
     {
+        _wallet.AddMoney(500000);
         if (_isOpen)
         {
             _isOpen = false;
