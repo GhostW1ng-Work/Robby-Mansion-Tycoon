@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using YG;
 
 public class EarnPerSecUpdater : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class EarnPerSecUpdater : MonoBehaviour
 
     private void Start()
     {
-        _text.text = $"${_earner.CurrentEarnPerSecond * _earner.CurrentMultiplier}/sec";
+        _text.text = $"${YandexGame.savesData.earnPerSecond * YandexGame.savesData.currentMultiplier}/sec";
     }
 
     private void OnEnable()
