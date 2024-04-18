@@ -1,19 +1,22 @@
 using UnityEngine;
 using System;
 using YG;
+using TMPro;
 
 public class Builder : MonoBehaviour
 {
     [SerializeField] private Building[] _buildings;
     [SerializeField] private Vector3[] _nextBuilderPositions;
     [SerializeField] private CanvasGroup _market;
-    [SerializeField] private int _price;
+    [SerializeField] private TMP_Text _priceText;
+    [SerializeField] private int[] _price;
 
     public static event Action BuildCreated;
 
     private void Start()
     {
-        if(YandexGame.savesData.buildingLevel == 0)
+        _priceText.text = _price[YandexGame.savesData.buildingLevel].ToString();
+        if (YandexGame.savesData.buildingLevel == 0)
         {
             transform.position = _nextBuilderPositions[0];
         }
@@ -25,23 +28,32 @@ public class Builder : MonoBehaviour
             Instantiate(building, building.Position, Quaternion.identity);
 
             if(i < _nextBuilderPositions.Length - 1)
+            {
+
                 transform.position = _nextBuilderPositions[i + 1];
+            }
             else
+            {
+
                 Destroy(gameObject);
+            }
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out PlayerWallet wallet))
         {
-            if (wallet.CurrentMoney >= _price)
+            if (wallet.CurrentMoney >= _price[YandexGame.savesData.buildingLevel])
             {
                 BuildCreated?.Invoke();
+                wallet.SpendMoney(_price[YandexGame.savesData.buildingLevel]);
                 YandexGame.savesData.buildingLevel++;
                 YandexGame.SaveProgress();
-                wallet.SpendMoney(_price);
                 Build(YandexGame.savesData.buildingLevel);
+                if(YandexGame.savesData.buildingLevel < _price.Length)
+                    _priceText.text = _price[YandexGame.savesData.buildingLevel].ToString();
             }
             else
             {
@@ -68,5 +80,6 @@ public class Builder : MonoBehaviour
             transform.position = _nextBuilderPositions[index];
         else
             Destroy(gameObject);
+
     }
 }
