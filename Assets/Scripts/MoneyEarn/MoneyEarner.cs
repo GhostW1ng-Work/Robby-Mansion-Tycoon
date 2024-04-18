@@ -1,12 +1,12 @@
 using UnityEngine;
 using System;
+using YG;
 
 public class MoneyEarner : MonoBehaviour
 {
     [SerializeField] private int _currentEarnPerSecond = 10;
 
     private int _currentMultiplier = 1;
-    private int _currentLevel = 1;
     private float _timeLeft = 1;
     private bool _hasMagnet = false;
 
@@ -27,6 +27,13 @@ public class MoneyEarner : MonoBehaviour
         Builder.BuildCreated -= OnBuildCreated;
     }
 
+    private void Start()
+    {
+        _currentMultiplier = YandexGame.savesData.currentMultiplier;
+        _hasMagnet = YandexGame.savesData.hasMagnet;
+        _currentEarnPerSecond = YandexGame.savesData.earnPerSecond;
+    }
+
     private void Update()
     {
             _timeLeft -= Time.deltaTime;
@@ -40,9 +47,10 @@ public class MoneyEarner : MonoBehaviour
 
     public void IncreaseLevel()
     {
-        _currentLevel++;
         _currentEarnPerSecond++;
         LevelIncreased?.Invoke();
+        YandexGame.savesData.earnPerSecond = _currentEarnPerSecond;
+        YandexGame.SaveProgress();
     }
 
     private void OnBuildCreated()
@@ -54,10 +62,14 @@ public class MoneyEarner : MonoBehaviour
     {
         _currentMultiplier = 2;
         MultiplierChanged?.Invoke();
+        YandexGame.savesData.currentMultiplier = _currentMultiplier;
+        YandexGame.SaveProgress();
     }
 
     public void SetHasMagnet()
     {
         _hasMagnet = true;
+        YandexGame.savesData.hasMagnet = _hasMagnet;
+        YandexGame.SaveProgress();
     }
 }

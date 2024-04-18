@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using YG;
 
 public class MoneyReceiver : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class MoneyReceiver : MonoBehaviour
 
     private void Start()
     {
+        _moneyCount = YandexGame.savesData.moneyReceiverCount;
         _moneyText.text = _moneyCount.ToString();
     }
 
@@ -30,6 +32,8 @@ public class MoneyReceiver : MonoBehaviour
             wallet.AddMoney(_moneyCount);
             _moneyCount = 0;
             _moneyText.text = _moneyCount.ToString();
+            YandexGame.savesData.moneyReceiverCount = _moneyCount;
+            YandexGame.SaveProgress();
         }
     }
 
@@ -39,6 +43,8 @@ public class MoneyReceiver : MonoBehaviour
         {
             _moneyCount += earnedMoney;
             _moneyText.text = _moneyCount.ToString();
+            YandexGame.savesData.moneyReceiverCount = _moneyCount;
+            YandexGame.SaveProgress();
         }
     }
 }

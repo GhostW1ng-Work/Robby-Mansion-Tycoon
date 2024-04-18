@@ -1,11 +1,12 @@
 using UnityEngine;
 using System;
+using YG;
 
 public class PlayerWallet : MonoBehaviour
 {
     [SerializeField] private MoneyEarner _earner;
 
-    private int _currentMoney = 100;
+    private int _currentMoney;
 
     public int CurrentMoney => _currentMoney;
 
@@ -13,6 +14,7 @@ public class PlayerWallet : MonoBehaviour
 
     private void Start()
     {
+        _currentMoney = YandexGame.savesData.playerMoney;
         MoneyChanged?.Invoke(_currentMoney);
     }
 
@@ -30,12 +32,16 @@ public class PlayerWallet : MonoBehaviour
     {
         _currentMoney += money;
         MoneyChanged?.Invoke(_currentMoney);
+        YandexGame.savesData.playerMoney = _currentMoney;
+        YandexGame.SaveProgress();
     }
 
     public void SpendMoney(int money)
     {
         _currentMoney -= money;
         MoneyChanged?.Invoke(_currentMoney);
+        YandexGame.savesData.playerMoney = _currentMoney;
+        YandexGame.SaveProgress();
     }
 
     private void OnMoneyEarned(int money, bool hasMagnet)

@@ -24,7 +24,7 @@ public class Builder : MonoBehaviour
             Instantiate(building, building.Position, Quaternion.identity);
 
             if(i < _nextBuilderPositions.Length - 1)
-                transform.position = _nextBuilderPositions[i];
+                transform.position = _nextBuilderPositions[i + 1];
             else
                 Destroy(gameObject);
         }

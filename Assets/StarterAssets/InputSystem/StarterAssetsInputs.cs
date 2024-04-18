@@ -1,6 +1,7 @@
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
+using YG;
 #endif
 
 namespace StarterAssets
@@ -79,7 +80,14 @@ namespace StarterAssets
 		public void SetSprint()
 		{
 			sprint = true;
+			YandexGame.savesData.isSprint = sprint;
+			YandexGame.SaveProgress();
 		}
-	}
+
+        private void Start()
+        {
+			sprint = YandexGame.savesData.isSprint;
+        }
+    }
 	
 }

@@ -18,6 +18,12 @@ namespace YG
 
         // Ваши сохранения
         public int firstRoomLevel = 0;
+        public int playerMoney = 0;
+        public int currentMultiplier = 1;
+        public int earnPerSecond = 10;
+        public int moneyReceiverCount = 0;
+        public bool isSprint = false;
+        public bool hasMagnet = false;
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
