@@ -6,6 +6,7 @@ public class Builder : MonoBehaviour
 {
     [SerializeField] private Building[] _buildings;
     [SerializeField] private Vector3[] _nextBuilderPositions;
+    [SerializeField] private CanvasGroup _market;
     [SerializeField] private int _price;
 
     public static event Action BuildCreated;
@@ -42,7 +43,20 @@ public class Builder : MonoBehaviour
                 wallet.SpendMoney(_price);
                 Build(YandexGame.savesData.buildingLevel);
             }
+            else
+            {
+                _market.alpha = 1;
+                _market.blocksRaycasts = true;
+                _market.interactable = true;
+            }
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        _market.alpha = 0;
+        _market.blocksRaycasts = false;
+        _market.interactable = false;
     }
 
     private void Build(int index)

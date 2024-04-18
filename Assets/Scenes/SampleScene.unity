@@ -1110,7 +1110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _marketPanel: {fileID: 2026885937}
-  _wallet: {fileID: 1524649356}
 --- !u!4 &383310788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934196940466492326, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
@@ -4972,6 +4971,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6285509458354382982, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: _price
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285509458354382982, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: _market
+      value: 
+      objectReference: {fileID: 2026885937}
     - target: {fileID: 6285509458354382982, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: _buildings.Array.size
       value: 2
