@@ -84,6 +84,11 @@ namespace StarterAssets
 			YandexGame.SaveProgress();
 		}
 
+		public void TemporarySetSprint(bool active)
+		{
+            sprint = active;
+        }
+
         private void Start()
         {
 			sprint = YandexGame.savesData.isSprint;

@@ -72,4 +72,15 @@ public class MoneyEarner : MonoBehaviour
         YandexGame.savesData.hasMagnet = _hasMagnet;
         YandexGame.SaveProgress();
     }
+
+    public void TemporaryDoubleMultiplier(int multiplier)
+    {
+        _currentMultiplier = multiplier;
+        MultiplierChanged?.Invoke();
+    }
+
+    public void TemporarySetHasMagnet(bool hasMagnet)
+    {
+        _hasMagnet = hasMagnet;
+    }
 }

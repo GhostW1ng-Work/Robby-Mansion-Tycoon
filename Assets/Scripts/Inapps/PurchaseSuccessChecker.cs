@@ -5,6 +5,7 @@ using YG;
 public class PurchaseSuccessChecker : MonoBehaviour
 {
     [SerializeField] private PlayerWallet _wallet;
+    [SerializeField] private RewardBoosters _rewardBoosters;
     [SerializeField] private MoneyEarner _moneyEarner;
     [SerializeField] private StarterAssetsInputs _input;
 
@@ -16,6 +17,14 @@ public class PurchaseSuccessChecker : MonoBehaviour
     private void OnDisable()
     {
         YandexGame.PurchaseSuccessEvent -= OnPurchaseSuccess;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.K))
+        {
+            _rewardBoosters.DeleteBooster(0);
+        }
     }
 
     private void OnPurchaseSuccess(string id)
@@ -54,6 +63,7 @@ public class PurchaseSuccessChecker : MonoBehaviour
                 break;
             case "speedBoost":
                 _input.SetSprint();
+                _rewardBoosters.DeleteBooster(0);
                 break;
         }
     }
