@@ -1,8 +1,15 @@
 using UnityEngine;
+using YG;
 
 public class MagnetRewardButton : RewardButton
 {
     [SerializeField] private MoneyEarner _earner;
+
+    private void Start()
+    {
+        HasBuyed = YandexGame.savesData.magnetBoostBuyed;
+    }
+
 
     public override void Boost(float seconds)
     {

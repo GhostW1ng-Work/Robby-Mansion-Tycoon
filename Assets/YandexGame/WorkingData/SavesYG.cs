@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace YG
 {
     [System.Serializable]
@@ -24,6 +26,9 @@ namespace YG
         public int moneyReceiverCount = 0;
         public bool isSprint = false;
         public bool hasMagnet = false;
+        public bool speedBoostBuyed = false;
+        public bool magnetBoostBuyed = false;
+        public bool doubleMoneyBoostBuyed = false;
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны

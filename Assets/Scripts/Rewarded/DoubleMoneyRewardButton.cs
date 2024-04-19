@@ -1,8 +1,14 @@
 using UnityEngine;
+using YG;
 
 public class DoubleMoneyRewardButton : RewardButton
 {
     [SerializeField] private MoneyEarner _earner;
+
+    private void Start()
+    {
+        HasBuyed = YandexGame.savesData.doubleMoneyBoostBuyed;
+    }
 
     public override void Boost(float seconds)
     {

@@ -57,9 +57,11 @@ public class PurchaseSuccessChecker : MonoBehaviour
                 break;
             case "magnet":
                 _moneyEarner.SetHasMagnet();
+                _rewardBoosters.DeleteBooster(1);
                 break;
             case "x2money":
                 _moneyEarner.DoubleMultiplier();
+                _rewardBoosters.DeleteBooster(2);
                 break;
             case "speedBoost":
                 _input.SetSprint();

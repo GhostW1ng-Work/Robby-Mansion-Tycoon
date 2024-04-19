@@ -13,6 +13,7 @@ public abstract class RewardButton : MonoBehaviour
     protected CanvasGroup CanvasGroup;
     protected bool IsActive = false;
     protected bool BoostActive = false;
+    protected bool HasBuyed = false;
 
     protected Button Button;
 
@@ -89,5 +90,15 @@ public abstract class RewardButton : MonoBehaviour
     public void SetId(int id)
     {
         Id = id;
+    }
+
+    public void SetHasBuyed(bool hasBuyed)
+    {
+        HasBuyed = hasBuyed;
+    }
+
+    public bool GetHasBuyed()
+    {
+        return HasBuyed;
     }
 }

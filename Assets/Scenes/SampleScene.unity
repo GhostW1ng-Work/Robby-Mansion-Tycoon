@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 359738170}
   - component: {fileID: 359738174}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: DoubleMoneyBoost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1760,7 +1760,7 @@ GameObject:
   - component: {fileID: 614243172}
   - component: {fileID: 614243176}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SpeedBoost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2576,7 +2576,7 @@ GameObject:
   - component: {fileID: 943415349}
   - component: {fileID: 943415353}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: MagnetBoost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
