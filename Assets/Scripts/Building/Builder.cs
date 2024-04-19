@@ -9,6 +9,8 @@ public class Builder : MonoBehaviour
     [SerializeField] private Building[] _buildings;
     [SerializeField] private Vector3[] _nextBuilderPositions;
     [SerializeField] private CanvasGroup _market;
+    [SerializeField] private CanvasGroup _activePanel;
+    [SerializeField] private CanvasGroup _nonActivePanel;
     [SerializeField] private TMP_Text _priceText;
     [SerializeField] private int[] _price;
 
@@ -62,6 +64,14 @@ public class Builder : MonoBehaviour
                 _market.alpha = 1;
                 _market.blocksRaycasts = true;
                 _market.interactable = true;
+
+                _activePanel.alpha = 1;
+                _activePanel.blocksRaycasts = true;
+                _activePanel.interactable = true;
+
+                _nonActivePanel.alpha = 0;
+                _nonActivePanel.blocksRaycasts = false;
+                _nonActivePanel.interactable = false;
             }
         }
     }
