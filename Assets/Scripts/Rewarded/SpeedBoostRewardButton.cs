@@ -1,6 +1,5 @@
 using StarterAssets;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SpeedBoostRewardButton : RewardButton
 {
@@ -15,6 +14,12 @@ public class SpeedBoostRewardButton : RewardButton
     {
         base.OnEnable();
         BoostEnded += OnBoostEnded;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        BoostEnded -= OnBoostEnded;
     }
 
     private void OnBoostEnded()

@@ -31,6 +31,7 @@ public class RewardBoosters : MonoBehaviour
             _rewardedBoosters[i].GetComponent<CanvasGroup>().alpha = 0;
             _rewardedBoosters[i].GetComponent<CanvasGroup>().blocksRaycasts = false;
             _rewardedBoosters[i].GetComponent<CanvasGroup>().interactable = false;
+            _rewardedBoosters[i].SetId(i);
         }
     }
 

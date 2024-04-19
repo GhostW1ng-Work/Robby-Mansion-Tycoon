@@ -16,6 +16,12 @@ public class DoubleMoneyRewardButton : RewardButton
         BoostEnded += OnBoostEnded;
     }
 
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        BoostEnded -= OnBoostEnded;
+    }
+
     private void OnBoostEnded()
     {
         if (BoostActive)

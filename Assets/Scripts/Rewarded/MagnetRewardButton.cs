@@ -14,6 +14,13 @@ public class MagnetRewardButton : RewardButton
     {
         base.OnEnable();
         BoostEnded += OnBoostEnded;
+
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        BoostEnded -= OnBoostEnded;
     }
 
     private void OnBoostEnded()

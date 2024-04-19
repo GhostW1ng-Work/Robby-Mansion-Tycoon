@@ -1259,6 +1259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeBeforeDisable: 10
   BoostTime: 10
+  Id: 0
   _earner: {fileID: 1600488002}
 --- !u!4 &383310788 stripped
 Transform:
@@ -1893,6 +1894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeBeforeDisable: 10
   BoostTime: 10
+  Id: 0
   _inputs: {fileID: 1417136043}
 --- !u!1 &638369811
 GameObject:
@@ -2708,6 +2710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeBeforeDisable: 10
   BoostTime: 10
+  Id: 0
   _earner: {fileID: 1600488002}
 --- !u!1 &1038899487
 GameObject:
