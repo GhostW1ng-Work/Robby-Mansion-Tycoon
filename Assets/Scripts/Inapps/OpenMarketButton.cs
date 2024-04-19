@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class OpenMarketButton : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class OpenMarketButton : MonoBehaviour
         }
         else
         {
-            CloseMarket();
+            Close();
         }
     }
 
@@ -51,6 +52,7 @@ public class OpenMarketButton : MonoBehaviour
 
     private void OpenMarket()
     {
+        _marketPanel.transform.DOScale(1, 0.1f);
         _marketPanel.alpha = 1;
         _marketPanel.interactable = true;
         _marketPanel.blocksRaycasts = true;
@@ -58,9 +60,13 @@ public class OpenMarketButton : MonoBehaviour
 
     private void CloseMarket()
     {
+        _marketPanel.transform.DOScale(0, 0.1f).OnComplete(Close);
+    }
+
+    private void Close()
+    {
         _marketPanel.alpha = 0;
         _marketPanel.interactable = false;
         _marketPanel.blocksRaycasts = false;
     }
-
 }

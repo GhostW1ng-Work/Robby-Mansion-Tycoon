@@ -2,6 +2,7 @@ using UnityEngine;
 using System;
 using YG;
 using TMPro;
+using DG.Tweening;
 
 public class Builder : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class Builder : MonoBehaviour
             }
             else
             {
+                _market.transform.DOScale(1, 0.1f);
                 _market.alpha = 1;
                 _market.blocksRaycasts = true;
                 _market.interactable = true;
@@ -65,6 +67,12 @@ public class Builder : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other)
+    {
+        _market.transform.DOScale(0, 0.1f).OnComplete(Close);
+
+    }
+
+    private void Close()
     {
         _market.alpha = 0;
         _market.blocksRaycasts = false;
