@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2277069398916351149}
   - component: {fileID: 749448432518260848}
   - component: {fileID: 4343008141142342381}
-  - component: {fileID: 6568579992269377870}
   - component: {fileID: 7679194002470537647}
+  - component: {fileID: 8491287759739198975}
   m_Layer: 0
   m_Name: PinballMachineV1
   m_TagString: Untagged
@@ -87,8 +87,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6568579992269377870
-MeshCollider:
+--- !u!114 &7679194002470537647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147271891067609614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521fdd01739362f428d1bd3a81f35f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+--- !u!65 &8491287759739198975
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,20 +118,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6223104033503649021, guid: 442bb5b0208f7c24cad4b2cd719c315f, type: 3}
---- !u!114 &7679194002470537647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3147271891067609614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521fdd01739362f428d1bd3a81f35f6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.59882766, y: 1.5418447, z: 1.1539133}
+  m_Center: {x: -0.23279169, y: 0.77009267, z: 0.5769565}

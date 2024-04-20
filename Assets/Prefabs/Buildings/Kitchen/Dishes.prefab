@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 697845465223004155}
   - component: {fileID: 8760974581558886907}
   - component: {fileID: 3216200721677376460}
+  - component: {fileID: 2934853727970808107}
   m_Layer: 0
   m_Name: Dishes
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &2934853727970808107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062053863658828693}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36347353, y: 0.07511815, z: 0.3479511}
+  m_Center: {x: 0, y: 0, z: 0}

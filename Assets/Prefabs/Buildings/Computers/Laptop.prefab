@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 7863589430034188210}
   - component: {fileID: 8426879357628841129}
   - component: {fileID: 3560681134950800616}
+  - component: {fileID: 5246524370238733047}
   m_Layer: 0
   m_Name: Laptop
   m_TagString: Untagged
@@ -187,3 +188,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &5246524370238733047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188048684653562416}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.52771616, y: 0.32951123, z: 0.46614346}
+  m_Center: {x: 0, y: 0.15417692, z: 0}

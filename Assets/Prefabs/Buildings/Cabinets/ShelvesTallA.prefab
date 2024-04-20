@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 501152626119103344}
   - component: {fileID: 2997367179913936806}
   - component: {fileID: 7053619671849053223}
+  - component: {fileID: 1070808153725665278}
   m_Layer: 0
   m_Name: ShelvesTallA
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &1070808153725665278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8054483570394094915}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.76727974, y: 5.457913, z: 2.8388455}
+  m_Center: {x: 0.0000003427267, y: 2.7109373, z: -0.00000011920929}

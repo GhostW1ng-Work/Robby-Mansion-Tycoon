@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 370169517368974993}
   - component: {fileID: 8874108035182871422}
   - component: {fileID: 3631175719196624856}
+  - component: {fileID: 1932805161282261572}
   m_Layer: 0
   m_Name: TableRectangleMedium
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &1932805161282261572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796201639154704937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.498291, y: 2.3881166, z: 4.826043}
+  m_Center: {x: 0, y: 1.1662048, z: -0.0000004768373}

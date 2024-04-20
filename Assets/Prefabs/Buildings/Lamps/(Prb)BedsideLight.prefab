@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 3659518755082574550}
   - component: {fileID: 2324683689879557529}
   - component: {fileID: 3827816549946973056}
-  - component: {fileID: 3169819964998101005}
+  - component: {fileID: 8294504026883387237}
   m_Layer: 0
   m_Name: bedsideLight
   m_TagString: Untagged
@@ -133,8 +133,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3169819964998101005
-CapsuleCollider:
+--- !u!65 &8294504026883387237
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,8 +151,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.16388321
-  m_Height: 0.6651968
-  m_Direction: 1
+  serializedVersion: 3
+  m_Size: {x: 0.32776642, y: 0.6651968, z: 0.32776636}
   m_Center: {x: -0.00000009685755, y: 0.3325984, z: -0.0000003054738}

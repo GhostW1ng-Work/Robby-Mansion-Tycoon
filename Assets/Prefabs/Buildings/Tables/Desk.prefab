@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 473679335757166669}
   - component: {fileID: 2872180143637862869}
   - component: {fileID: 1743812366775253632}
+  - component: {fileID: 3517727911463779167}
   m_Layer: 0
   m_Name: Desk
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &3517727911463779167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369587062468186813}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8779436, y: 0.91948426, z: 0.87016785}
+  m_Center: {x: 0, y: 0, z: 0}

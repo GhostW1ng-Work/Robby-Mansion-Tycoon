@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3812892817570998758}
   - component: {fileID: 4856113145087044765}
   - component: {fileID: 6837645730762623667}
+  - component: {fileID: 2679216592123567756}
   m_Layer: 0
   m_Name: ChairDinningA
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &2679216592123567756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9164693197558404295}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4651061, y: 3.2439997, z: 1.505803}
+  m_Center: {x: 0.012208852, y: 1.5941464, z: 0.00000020861631}

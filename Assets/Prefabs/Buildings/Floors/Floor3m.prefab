@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1465621064822516648}
   - component: {fileID: 3689391560013345198}
   - component: {fileID: 4065085881350845596}
+  - component: {fileID: 3468354220915227949}
   m_Layer: 0
   m_Name: Floor3m
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &3468354220915227949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624584099344232067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.099999994, z: 3}
+  m_Center: {x: 1.5, y: -0.049999997, z: -1.5}

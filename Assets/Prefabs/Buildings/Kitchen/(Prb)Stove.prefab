@@ -92,7 +92,6 @@ GameObject:
   - component: {fileID: 5367570300762767223}
   - component: {fileID: 8500561596192023809}
   - component: {fileID: 9044088682462579581}
-  - component: {fileID: 459472146177806555}
   m_Layer: 0
   m_Name: stove_interface
   m_TagString: Untagged
@@ -167,27 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &459472146177806555
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7830712532283178858}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2575646, y: 0.342434, z: 1.5167303}
-  m_Center: {x: 0.09854086, y: 0.16669863, z: -0.0000015795231}
 --- !u!1 &8094476906866039321
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +177,6 @@ GameObject:
   - component: {fileID: 6559580011691578683}
   - component: {fileID: 7093207109842253453}
   - component: {fileID: 7892335332362812781}
-  - component: {fileID: 4485293790289160164}
   m_Layer: 0
   m_Name: stove_door
   m_TagString: Untagged
@@ -275,27 +252,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4485293790289160164
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8094476906866039321}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.3835732, y: 1.4901083, z: 1.455454}
-  m_Center: {x: 0.69178206, y: -0.1842092, z: 0.024987757}
 --- !u!1 &8335824199362457469
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,8 +355,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2689645, y: 1.9972528, z: 1.4773642}
-  m_Center: {x: -0.0000076293945, y: 0.9986257, z: -0.000000059604645}
+  m_Size: {x: 1.3722441, y: 1.9972528, z: 1.4773642}
+  m_Center: {x: 0.051632166, y: 0.9986257, z: -0.000000059604645}
 --- !u!1 &9153884881388826581
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +368,6 @@ GameObject:
   - component: {fileID: 1458897913148281544}
   - component: {fileID: 1365242547975328785}
   - component: {fileID: 6655644721231467917}
-  - component: {fileID: 6971666705412891899}
   m_Layer: 0
   m_Name: stove_gas
   m_TagString: Untagged
@@ -485,24 +440,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6971666705412891899
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9153884881388826581}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.3403387, y: 0.20564213, z: 1.4832932}
-  m_Center: {x: 0.0000036656857, y: 0.102820545, z: -0.00000017881393}

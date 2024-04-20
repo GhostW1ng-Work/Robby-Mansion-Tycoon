@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2856210660294430065}
   - component: {fileID: 7640887648661520838}
   - component: {fileID: 7989094541649714311}
+  - component: {fileID: 7676091125856544527}
   m_Layer: 0
   m_Name: PlantPotMedium
   m_TagString: Untagged
@@ -98,6 +99,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &7676091125856544527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3246577665144322888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.801205, y: 0.6781879, z: 0.8012049}
+  m_Center: {x: -0.000014841557, y: 0.33909395, z: 0.000006183982}
 --- !u!1 &9021064204552081800
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3086568382565711925}
   - component: {fileID: 4851889975307672620}
   - component: {fileID: 7214855515675307460}
+  - component: {fileID: 118946385486483740}
   m_Layer: 0
   m_Name: Vase
   m_TagString: Untagged
@@ -98,3 +99,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &118946385486483740
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361764030825951962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20627713, y: 0.7946021, z: 0.20627715}
+  m_Center: {x: -0.0000003874302, y: 0, z: 0.07486612}

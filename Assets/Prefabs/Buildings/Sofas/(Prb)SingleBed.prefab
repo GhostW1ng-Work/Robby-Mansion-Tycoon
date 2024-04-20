@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7735630697952012817}
   - component: {fileID: 8174208069139019516}
   - component: {fileID: 2383070028363330113}
-  - component: {fileID: 7353121648125496645}
   m_Layer: 0
   m_Name: singleBed_pillow3
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7353121648125496645
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234877263804649259}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.857394, y: 0.6366259, z: 1.8738348}
-  m_Center: {x: 0.03751491, y: 0.06512748, z: -0.0066396594}
 --- !u!1 &1348272664203476634
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +94,6 @@ GameObject:
   - component: {fileID: 1775539900834774694}
   - component: {fileID: 6011081202049421592}
   - component: {fileID: 6010807181420025165}
-  - component: {fileID: 7149950252193334129}
   m_Layer: 0
   m_Name: singleBed_blanket2
   m_TagString: Untagged
@@ -189,27 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7149950252193334129
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348272664203476634}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5790517, y: 0.77539593, z: 2.3535154}
-  m_Center: {x: 0.10627079, y: -0.14715984, z: -0.03297949}
 --- !u!1 &1803834269107031579
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +177,6 @@ GameObject:
   - component: {fileID: 4978531396159278569}
   - component: {fileID: 3921557838690926867}
   - component: {fileID: 5360757413286067095}
-  - component: {fileID: 6246073831271893521}
   m_Layer: 0
   m_Name: singleBed_blanket1
   m_TagString: Untagged
@@ -294,27 +249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6246073831271893521
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803834269107031579}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.91399896, y: 0.84552133, z: 2.339839}
-  m_Center: {x: -0.06251989, y: -0.1111529, z: 0.009572744}
 --- !u!1 &2523400941951916852
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +298,6 @@ GameObject:
   - component: {fileID: 8525148824008751383}
   - component: {fileID: 7808941249385678101}
   - component: {fileID: 6055192620095385548}
-  - component: {fileID: 3812974318621963157}
   m_Layer: 0
   m_Name: singleBed_matress
   m_TagString: Untagged
@@ -437,27 +370,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3812974318621963157
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2735702031367889509}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.3705804, y: 0.45970935, z: 1.7761508}
-  m_Center: {x: 0.0012193918, y: 0.008775078, z: 0}
 --- !u!1 &3175979932638736531
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +427,6 @@ GameObject:
   - component: {fileID: 6394001104763364409}
   - component: {fileID: 6707008536624944325}
   - component: {fileID: 3134229958419885360}
-  - component: {fileID: 7587803198700918750}
   m_Layer: 0
   m_Name: singleBed_pillow1
   m_TagString: Untagged
@@ -588,27 +499,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7587803198700918750
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4707467155301346246}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.3595602, y: 0.4340737, z: 0.8001126}
-  m_Center: {x: -0.0034385398, y: -0.013066173, z: 0.011176005}
 --- !u!1 &5310912891423641956
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +511,7 @@ GameObject:
   - component: {fileID: 8725082370839614471}
   - component: {fileID: 1908880794514624500}
   - component: {fileID: 6889630637315759703}
+  - component: {fileID: 8433658483830203864}
   m_Layer: 0
   m_Name: singleBed_frame
   m_TagString: Untagged
@@ -713,8 +604,29 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6466072, y: 2.8134499, z: 1.8756334}
-  m_Center: {x: 1.8031734, y: 1.4067247, z: 0.00000047683716}
+  m_Size: {x: 3.6466072, y: 0.91703427, z: 1.8756334}
+  m_Center: {x: 1.8031734, y: 0.4585169, z: 0.00000047683716}
+--- !u!65 &8433658483830203864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310912891423641956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22080612, y: 2.8134499, z: 1.8756334}
+  m_Center: {x: 0.0902729, y: 1.4067247, z: 0.00000047683716}
 --- !u!1 &9197481312071569132
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +638,6 @@ GameObject:
   - component: {fileID: 7010401830326735426}
   - component: {fileID: 3638964850476629330}
   - component: {fileID: 8121967850562475884}
-  - component: {fileID: 5963454348454884613}
   m_Layer: 0
   m_Name: singleBed_pillow2
   m_TagString: Untagged
@@ -799,24 +710,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5963454348454884613
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9197481312071569132}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.3595602, y: 0.4340737, z: 0.8001126}
-  m_Center: {x: -0.0034385398, y: -0.013066173, z: 0.011176005}

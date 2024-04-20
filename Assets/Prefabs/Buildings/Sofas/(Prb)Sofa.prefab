@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2657202329626105821}
   - component: {fileID: 1947400806869718971}
   - component: {fileID: 8519193201111464625}
-  - component: {fileID: 4789493082429542383}
   m_Layer: 0
   m_Name: sofa_pillow4
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4789493082429542383
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 316604931933712444}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.31619075, y: 0.55447155, z: 0.9085184}
-  m_Center: {x: 0.03189634, y: -0.0019149332, z: -0.013714178}
 --- !u!1 &932694920802403403
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +94,6 @@ GameObject:
   - component: {fileID: 4693289586697948671}
   - component: {fileID: 5986083958488276688}
   - component: {fileID: 5432499530235733292}
-  - component: {fileID: 236225345982012949}
   m_Layer: 0
   m_Name: sofa_pillow5
   m_TagString: Untagged
@@ -189,27 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &236225345982012949
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932694920802403403}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.43973985, y: 0.56920975, z: 0.8879307}
-  m_Center: {x: 0.01040025, y: -0.0066611017, z: -0.03643189}
 --- !u!1 &1542207721388198840
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +321,6 @@ GameObject:
   - component: {fileID: 2803872360328641264}
   - component: {fileID: 5983896909605511680}
   - component: {fileID: 7585531368239211636}
-  - component: {fileID: 7453453159787354855}
   m_Layer: 0
   m_Name: sofa_pillow6
   m_TagString: Untagged
@@ -438,27 +393,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7453453159787354855
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3589457500085770119}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.27996448, y: 0.40268484, z: 0.41545823}
-  m_Center: {x: -0.00050493324, y: 0.001914203, z: -0.0035462675}
 --- !u!1 &6253399716162645428
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +450,6 @@ GameObject:
   - component: {fileID: 7600803684070179970}
   - component: {fileID: 3476414909400588816}
   - component: {fileID: 4948638377254624161}
-  - component: {fileID: 6051752276008549868}
   m_Layer: 0
   m_Name: sofa_pillow3
   m_TagString: Untagged
@@ -589,27 +522,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6051752276008549868
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7924682182319192366}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2518805, y: 0.40720585, z: 0.42957732}
-  m_Center: {x: 0.0006698146, y: 0.0020013747, z: -0.0028688607}
 --- !u!1 &8050341529166760588
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +533,6 @@ GameObject:
   - component: {fileID: 823604699292377536}
   - component: {fileID: 7768375192915623115}
   - component: {fileID: 3775410435039256740}
-  - component: {fileID: 4035870108194930389}
   m_Layer: 0
   m_Name: sofa_pillow2
   m_TagString: Untagged
@@ -694,27 +605,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4035870108194930389
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8050341529166760588}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.46455395, y: 0.56046355, z: 0.8953714}
-  m_Center: {x: 0.005936041, y: -0.007650524, z: -0.014022975}
 --- !u!1 &8455546838016799475
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +616,6 @@ GameObject:
   - component: {fileID: 1118285672684288544}
   - component: {fileID: 4698775962130446760}
   - component: {fileID: 997032898277693379}
-  - component: {fileID: 1862675692164155270}
   m_Layer: 0
   m_Name: sofa_pillow1
   m_TagString: Untagged
@@ -799,24 +688,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1862675692164155270
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8455546838016799475}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.30198428, y: 0.43391207, z: 0.38364702}
-  m_Center: {x: 0.0010147615, y: 0.0017019286, z: -0.0024027673}

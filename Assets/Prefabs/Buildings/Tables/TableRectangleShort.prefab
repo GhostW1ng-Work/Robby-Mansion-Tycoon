@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9175782540510341446}
   - component: {fileID: 734496460521353996}
   - component: {fileID: 7087014272935114618}
+  - component: {fileID: 1572260182402040556}
   m_Layer: 0
   m_Name: TableRectangleShort
   m_TagString: Untagged
@@ -97,3 +98,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &1572260182402040556
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328016784232862834}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9584845, y: 1.073672, z: 3.8431616}
+  m_Center: {x: 0, y: 0.50898266, z: -0.00000011920932}

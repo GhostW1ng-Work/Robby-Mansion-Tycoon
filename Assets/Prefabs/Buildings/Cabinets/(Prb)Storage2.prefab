@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 2212743328705594138}
   - component: {fileID: 6003716747505089074}
   - component: {fileID: 1471128493407271446}
-  - component: {fileID: 6634826891443198333}
   m_Layer: 0
   m_Name: storage2_door1
   m_TagString: Untagged
@@ -237,27 +236,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6634826891443198333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2855362439984619453}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.08247103, y: 1.1262904, z: 0.46675438}
-  m_Center: {x: 0.041238956, y: -0.28066802, z: 0.23247245}
 --- !u!1 &3207218963784611869
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +247,6 @@ GameObject:
   - component: {fileID: 7361865153786136166}
   - component: {fileID: 118934561835310499}
   - component: {fileID: 2839350267750254714}
-  - component: {fileID: 6047114663744257444}
   m_Layer: 0
   m_Name: storage2_door4
   m_TagString: Untagged
@@ -343,27 +320,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6047114663744257444
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3207218963784611869}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.83168805, y: 0.3834828, z: 0.9943331}
-  m_Center: {x: 0.41537696, y: 0.00075306743, z: 0.00075286627}
 --- !u!1 &4381993947933579359
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +367,6 @@ GameObject:
   - component: {fileID: 5630893371327617159}
   - component: {fileID: 2333052676519971630}
   - component: {fileID: 3706306697177601287}
-  - component: {fileID: 4931999035318316902}
   m_Layer: 0
   m_Name: storage2_door3
   m_TagString: Untagged
@@ -485,27 +440,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4931999035318316902
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6165840544152856959}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.83168805, y: 0.38348275, z: 0.9943331}
-  m_Center: {x: 0.41537696, y: 0.00075309724, z: 0.00075286627}
 --- !u!1 &7926112511045328054
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +451,6 @@ GameObject:
   - component: {fileID: 6912840839032117039}
   - component: {fileID: 1410575618195351205}
   - component: {fileID: 4528055481158005090}
-  - component: {fileID: 2651680020172213151}
   m_Layer: 0
   m_Name: storage2_door2
   m_TagString: Untagged
@@ -591,24 +524,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2651680020172213151
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7926112511045328054}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.8316881, y: 0.32939246, z: 0.994333}
-  m_Center: {x: 0.41537693, y: 0.0007530451, z: 0.00075240433}

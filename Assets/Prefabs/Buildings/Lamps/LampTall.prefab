@@ -176,6 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2779265868784118671}
   - component: {fileID: 2182848489162188561}
+  - component: {fileID: 8069698908283108563}
   m_Layer: 0
   m_Name: LampTall
   m_TagString: Untagged
@@ -215,6 +216,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &8069698908283108563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353462697895495979}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.55840874, y: 1.819432, z: 0.55252075}
+  m_Center: {x: -0.0029439926, y: 0.9080838, z: 0.005887985}
 --- !u!1 &8293227735575158183
 GameObject:
   m_ObjectHideFlags: 0

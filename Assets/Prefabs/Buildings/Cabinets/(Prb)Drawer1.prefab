@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 251316640370078356}
   - component: {fileID: 4376034657794378079}
   - component: {fileID: 7161162454000001573}
-  - component: {fileID: 1385500366473892151}
   m_Layer: 0
   m_Name: drawer1_leftDoor
   m_TagString: Untagged
@@ -119,27 +118,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1385500366473892151
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081435753192938285}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.094098814, y: 1.5117745, z: 0.4677053}
-  m_Center: {x: 0.04704934, y: -0.00034734607, z: 0.23351139}
 --- !u!1 &7376607131645900821
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +234,6 @@ GameObject:
   - component: {fileID: 844671531521902625}
   - component: {fileID: 4862207047060900414}
   - component: {fileID: 1477563139051464681}
-  - component: {fileID: 2849248635660404988}
   m_Layer: 0
   m_Name: drawer1_rightDoor
   m_TagString: Untagged
@@ -330,27 +307,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2849248635660404988
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8407515667049882510}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.094098754, y: 1.5117745, z: 0.46770525}
-  m_Center: {x: 0.047049236, y: -0.00034716725, z: -0.23350978}
 --- !u!1 &8894064281316580818
 GameObject:
   m_ObjectHideFlags: 0

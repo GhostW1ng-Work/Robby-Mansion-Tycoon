@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 8125606368531389406}
   - component: {fileID: 2592598941672723433}
   - component: {fileID: 4379739663314330537}
+  - component: {fileID: 1376479200027153326}
   m_Layer: 0
   m_Name: BedDouble
   m_TagString: Untagged
@@ -182,6 +183,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &1376479200027153326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7071026234040135384}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.552395, y: 0.5271835, z: 2.013114}
+  m_Center: {x: -0.0075511336, y: 0.2659802, z: -0.0048731565}
 --- !u!1 &7519857518689498727
 GameObject:
   m_ObjectHideFlags: 0

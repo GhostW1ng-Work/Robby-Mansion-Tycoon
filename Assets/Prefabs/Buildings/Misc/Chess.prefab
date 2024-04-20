@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3509065584016404930}
   - component: {fileID: 614577776453045845}
+  - component: {fileID: 3908676275862311508}
   m_Layer: 0
   m_Name: Chess
   m_TagString: Untagged
@@ -130,6 +131,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
+--- !u!65 &3908676275862311508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672625840650492612}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.81450653, y: 0.8047433, z: 0.79823494}
+  m_Center: {x: 0.0016269684, y: -0.23756242, z: 0.00000011920929}
 --- !u!1 &7054489236828422090
 GameObject:
   m_ObjectHideFlags: 0

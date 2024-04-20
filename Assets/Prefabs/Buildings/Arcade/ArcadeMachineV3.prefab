@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5877682369316647036}
   - component: {fileID: 7555025469724214585}
   - component: {fileID: 3709556856234629709}
-  - component: {fileID: 3436642441975933397}
   - component: {fileID: 2480841097171052903}
+  - component: {fileID: 2246370849117118418}
   m_Layer: 0
   m_Name: ArcadeMachineV3
   m_TagString: Untagged
@@ -86,8 +86,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3436642441975933397
-MeshCollider:
+--- !u!114 &2480841097171052903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890372371451093152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521fdd01739362f428d1bd3a81f35f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+--- !u!65 &2246370849117118418
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,20 +117,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7380105756687255411, guid: 2dd8edde3f7483e40a900f61ba7f2d0a, type: 3}
---- !u!114 &2480841097171052903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890372371451093152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521fdd01739362f428d1bd3a81f35f6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.6600006, y: 1.6329212, z: 0.75108486}
+  m_Center: {x: -0.33000043, y: 0.8164606, z: 0.37554243}

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6445493743106157391}
   - component: {fileID: 5261324572476885430}
   - component: {fileID: 6938890000189976293}
-  - component: {fileID: 3086881951430703954}
   m_Layer: 0
   m_Name: cornerSofa_pillowT
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3086881951430703954
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3797747392190921358}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2846201, y: 0.3815927, z: 0.4245112}
-  m_Center: {x: 0.00088917464, y: 0.0012725964, z: -0.0029255673}
 --- !u!1 &6591479928075051923
 GameObject:
   m_ObjectHideFlags: 0

@@ -136,8 +136,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.120000064, y: 0.27420172, z: 0.12000003}
-  m_Center: {x: -0.0000000037252903, y: 0.1371008, z: 0}
+  m_Size: {x: 0.120000064, y: 0.28568098, z: 0.12000003}
+  m_Center: {x: -0.0000000037252903, y: 0.14284043, z: 0}
 --- !u!1 &4558667325262502871
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +149,6 @@ GameObject:
   - component: {fileID: 6987221456478623016}
   - component: {fileID: 3610357996504226255}
   - component: {fileID: 8776562595860204330}
-  - component: {fileID: 2687949020277938275}
   m_Layer: 0
   m_Name: soapDispenser_lid
   m_TagString: Untagged
@@ -222,27 +221,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2687949020277938275
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4558667325262502871}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.12661293, y: 0.03986707, z: 0.03363315}
-  m_Center: {x: 0.046494383, y: 0.019016052, z: -0.0000009769574}
 --- !u!1 &5342214899916805555
 GameObject:
   m_ObjectHideFlags: 0
