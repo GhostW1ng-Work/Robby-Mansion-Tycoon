@@ -1,4 +1,4 @@
-using UnityEditor;
+/*using UnityEditor;
 using UnityEditor.EditorTools;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -81,3 +81,4 @@ public class CustomSnapTool : EditorTool
         }
     }
 }
+*/
