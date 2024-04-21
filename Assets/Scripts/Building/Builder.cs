@@ -18,7 +18,9 @@ public class Builder : MonoBehaviour
 
     private void Start()
     {
-        _priceText.text = _price[YandexGame.savesData.buildingLevel].ToString();
+        if(YandexGame.savesData.buildingLevel < _price.Length)
+            _priceText.text = _price[YandexGame.savesData.buildingLevel].ToString();
+
         if (YandexGame.savesData.buildingLevel == 0)
         {
             transform.position = _nextBuilderPositions[0];
