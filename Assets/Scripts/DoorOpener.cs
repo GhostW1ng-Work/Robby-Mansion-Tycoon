@@ -3,12 +3,12 @@ using DG.Tweening;
 
 public class DoorOpener : MonoBehaviour
 {
+    [SerializeField] private AudioClip _sound;
     [SerializeField] private Transform _door;
     [SerializeField] private float _duration;
     [SerializeField] private Quaternion _rotation;
 
     private Quaternion _startRotation;
-    private bool _inTrigger;
 
     private void Start()
     {
@@ -19,6 +19,7 @@ public class DoorOpener : MonoBehaviour
     {
         if (other.TryGetComponent(out PlayerWallet player))
         {
+            AudioSource.PlayClipAtPoint(_sound, transform.position);
             _door.DOLocalRotateQuaternion(_rotation, _duration);
         }
     }
@@ -27,6 +28,7 @@ public class DoorOpener : MonoBehaviour
     {
         if (other.TryGetComponent(out PlayerWallet player))
         {
+            AudioSource.PlayClipAtPoint(_sound, transform.position);
             _door.DOLocalRotateQuaternion(_startRotation, _duration);
         }
     }

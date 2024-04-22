@@ -756,6 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6462d3dd20f0c3949817243c184bf7bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sound: {fileID: 8300000, guid: 9b2222c683952a94a805b1855b463b78, type: 3}
   _door: {fileID: 7061931937280598520}
   _duration: 0.5
   _rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}

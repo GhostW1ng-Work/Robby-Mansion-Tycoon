@@ -6,6 +6,8 @@ using DG.Tweening;
 
 public class Builder : MonoBehaviour
 {
+    [SerializeField] private AudioClip _sound;
+    [SerializeField] private AudioSource _target;
     [SerializeField] private Building[] _buildings;
     [SerializeField] private Vector3[] _nextBuilderPositions;
     [SerializeField] private CanvasGroup _market;
@@ -98,6 +100,7 @@ public class Builder : MonoBehaviour
 
     private void Build(int index)
     {
+        _target.PlayOneShot(_sound);
         Building building = _buildings[index - 1];
 
         Instantiate(building, building.Position, building.Rotation);
