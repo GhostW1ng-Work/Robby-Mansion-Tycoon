@@ -14,6 +14,9 @@ public class Builder : MonoBehaviour
     [SerializeField] private TMP_Text _priceText;
     [SerializeField] private int[] _price;
 
+    public event Action MarketOpened;
+    public event Action MarketClosed;
+
     public static event Action BuildCreated;
 
     private void Start()
@@ -62,6 +65,7 @@ public class Builder : MonoBehaviour
             }
             else
             {
+                MarketOpened?.Invoke();
                 _market.transform.DOScale(1, 0.1f);
                 _market.alpha = 1;
                 _market.blocksRaycasts = true;
@@ -86,6 +90,7 @@ public class Builder : MonoBehaviour
 
     private void Close()
     {
+        MarketClosed?.Invoke();
         _market.alpha = 0;
         _market.blocksRaycasts = false;
         _market.interactable = false;

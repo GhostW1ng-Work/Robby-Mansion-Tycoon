@@ -1,5 +1,5 @@
 {
-    "idSave": 41,
+    "idSave": 48,
     "isFirstSession": false,
     "language": "en",
     "promptDone": false,
@@ -14,7 +14,7 @@
     "playerMoney": 0,
     "currentMultiplier": 1,
     "earnPerSecond": 10,
-    "moneyReceiverCount": 410,
+    "moneyReceiverCount": 480,
     "isSprint": false,
     "hasMagnet": false,
     "speedBoostBuyed": false,

@@ -1,6 +1,5 @@
 using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +9,9 @@ public class MarketButtons : MonoBehaviour
     [SerializeField] private CanvasGroup _activePanel;
 
     private Button _button;
+
+    public event Action MarketOpened;
+    public event Action MarketClosed;
 
     private void Awake()
     {
@@ -33,6 +35,7 @@ public class MarketButtons : MonoBehaviour
 
     private void OpenMarket()
     {
+        MarketOpened?.Invoke();
         _activePanel.alpha = 1;
         _activePanel.interactable = true;
         _activePanel.blocksRaycasts = true;
@@ -49,6 +52,7 @@ public class MarketButtons : MonoBehaviour
 
     public void Close()
     {
+        MarketClosed?.Invoke();
         _activePanel.alpha = 0;
         _activePanel.interactable = false;
         _activePanel.blocksRaycasts = false;

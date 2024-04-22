@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System;
 
 public class OpenMarketButton : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class OpenMarketButton : MonoBehaviour
 
     private bool _isOpen = false;
     private Button _button;
+
+    public event Action MarketOpened;
+    public event Action MarketClosed;
 
     private void Awake()
     {
@@ -52,6 +56,7 @@ public class OpenMarketButton : MonoBehaviour
 
     private void OpenMarket()
     {
+        MarketOpened?.Invoke();
         _marketPanel.transform.DOScale(1, 0.1f);
         _marketPanel.alpha = 1;
         _marketPanel.interactable = true;
@@ -65,6 +70,7 @@ public class OpenMarketButton : MonoBehaviour
 
     private void Close()
     {
+        MarketClosed?.Invoke();
         _marketPanel.alpha = 0;
         _marketPanel.interactable = false;
         _marketPanel.blocksRaycasts = false;
