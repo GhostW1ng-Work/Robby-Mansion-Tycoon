@@ -30,7 +30,7 @@ public class Builder : MonoBehaviour
         {
             Building building = _buildings[i];
 
-            Instantiate(building, building.Position, Quaternion.identity);
+            Instantiate(building, building.Position, building.Rotation);
 
             if(i < _nextBuilderPositions.Length - 1)
             {
@@ -95,7 +95,7 @@ public class Builder : MonoBehaviour
     {
         Building building = _buildings[index - 1];
 
-        Instantiate(building, building.Position, Quaternion.identity);
+        Instantiate(building, building.Position, building.Rotation);
         if (index < _nextBuilderPositions.Length)
             transform.position = _nextBuilderPositions[index];
         else
