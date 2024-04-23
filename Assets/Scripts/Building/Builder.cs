@@ -42,6 +42,7 @@ public class Builder : MonoBehaviour
                 Interactable interactable = creation.GetComponent<Interactable>();
 
                 interactable.Initialize(_player);
+                print(interactable + " получил игрока");
             }
 
             if(i < _nextBuilderPositions.Length - 1)
