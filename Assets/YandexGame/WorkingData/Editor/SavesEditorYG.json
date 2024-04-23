@@ -1,0 +1,23 @@
+{
+    "idSave": 204,
+    "isFirstSession": false,
+    "language": "en",
+    "promptDone": false,
+    "money": 1,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ],
+    "buildingLevel": 0,
+    "playerMoney": 1670,
+    "currentMultiplier": 1,
+    "earnPerSecond": 10,
+    "moneyReceiverCount": 210,
+    "isSprint": false,
+    "hasMagnet": false,
+    "speedBoostBuyed": false,
+    "magnetBoostBuyed": false,
+    "doubleMoneyBoostBuyed": false
+}
