@@ -6,6 +6,7 @@ using DG.Tweening;
 
 public class Builder : MonoBehaviour
 {
+    [SerializeField] private PlayerWallet _player;
     [SerializeField] private AudioClip _sound;
     [SerializeField] private AudioSource _target;
     [SerializeField] private Building[] _buildings;
@@ -35,7 +36,13 @@ public class Builder : MonoBehaviour
         {
             Building building = _buildings[i];
 
-            Instantiate(building, building.Position, building.Rotation);
+            Building creation = Instantiate(building, building.Position, building.Rotation);
+            if (creation.IsInteractable)
+            {
+                Interactable interactable = creation.GetComponent<Interactable>();
+
+                interactable.Initialize(_player);
+            }
 
             if(i < _nextBuilderPositions.Length - 1)
             {
@@ -103,7 +110,15 @@ public class Builder : MonoBehaviour
         _target.PlayOneShot(_sound);
         Building building = _buildings[index - 1];
 
-        Instantiate(building, building.Position, building.Rotation);
+        Building creation = Instantiate(building, building.Position, building.Rotation);
+        if (creation.IsInteractable)
+        {
+            Interactable interactable = creation.GetComponent<Interactable>();
+
+            interactable.Initialize(_player);
+        }
+ 
+
         if (index < _nextBuilderPositions.Length)
             transform.position = _nextBuilderPositions[index];
         else
