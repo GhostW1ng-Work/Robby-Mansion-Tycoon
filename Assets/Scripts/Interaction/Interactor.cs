@@ -1,8 +1,6 @@
 using Cinemachine;
-using StarterAssets;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using YG;
 
 public class Interactor : MonoBehaviour
@@ -60,13 +58,10 @@ public class Interactor : MonoBehaviour
             {
                 if (YandexGame.EnvironmentData.isMobile)
                 {
-                    if (Input.GetKeyDown(KeyCode.E))
-                    {
                         _button.alpha = 0;
                         _button.interactable = false;
                         _button.blocksRaycasts = false;
                         _interactButton.SetTarget(null);
-                    }
                 }
                 Target = null;
             }

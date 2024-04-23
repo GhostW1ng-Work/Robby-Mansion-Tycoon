@@ -3516,6 +3516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactor: {fileID: 1866187628}
+  _personController: {fileID: 1953973306}
+  _brains: {fileID: 1866187625}
 --- !u!1 &1225278712
 GameObject:
   m_ObjectHideFlags: 0
