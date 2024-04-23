@@ -1,9 +1,14 @@
+using Cinemachine;
+using StarterAssets;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using YG;
 
 public class Interactor : MonoBehaviour
 {
+    [SerializeField] private StarterAssets.ThirdPersonController _personController;
+    [SerializeField] private CinemachineBrain _brains;
     [SerializeField] private float _range;
     [SerializeField] private CanvasGroup _button;
     [SerializeField] private InteractButton _interactButton;
@@ -31,6 +36,12 @@ public class Interactor : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.E))
                     {
                         interactable.Interact();
+                        if (interactable.ChangePosition)
+                        {
+                            _brains.enabled = false;
+                            _personController.enabled = false;
+                            StartCoroutine(WaitBeforeEnable());
+                        }
                     }
                 }
                 else
@@ -60,5 +71,12 @@ public class Interactor : MonoBehaviour
                 Target = null;
             }
         }
+    }
+
+    private IEnumerator WaitBeforeEnable()
+    {
+        yield return new WaitForSeconds(0.1f);
+        _brains.enabled = !_brains.enabled;
+        _personController.enabled = !_personController.enabled;
     }
 }
