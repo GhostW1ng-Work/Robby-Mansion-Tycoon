@@ -52,6 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 4.5, y: 1.1340003, z: 38.02}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
 --- !u!1001 &3128172406935707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60,6 +61,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9178789698702251179}
     m_Modifications:
+    - target: {fileID: 541407696140134732, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e93a52678fd47b4d88ebfe3b64f607b, type: 2}
     - target: {fileID: 5266887625916036940, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.5
@@ -126,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArcadeMachineV3
       objectReference: {fileID: 0}
+    - target: {fileID: 5699985345565327008, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 90e277ca2435a604db46f302f797b80f, type: 2}
     - target: {fileID: 5877682369316647036, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5
@@ -184,6 +193,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9178789698702251179}
     m_Modifications:
+    - target: {fileID: 541407696140134732, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cc907ae41a3b4d41bdb5db8a07fd872, type: 2}
     - target: {fileID: 5266887625916036940, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -286,6 +299,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 863273224469206782, guid: f110037a4a25da545a8226a37e765b31, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 45b4b9abf8438cd49aa45c1a00e476a4, type: 2}
     - target: {fileID: 7045994613112087783, guid: f110037a4a25da545a8226a37e765b31, type: 3}
       propertyPath: m_Name
       value: ArcadeMachineV4
@@ -352,6 +369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArcadeMachineV1
       objectReference: {fileID: 0}
+    - target: {fileID: 8263555351632438410, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e71c822d8f366f4f8f6259d8f94c0e0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -370,6 +391,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9178789698702251179}
     m_Modifications:
+    - target: {fileID: 938732464487540882, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
+      propertyPath: _enableMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 3aab632bc2a731444ad578d4597d107d, type: 2}
     - target: {fileID: 2543733116086849798, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
