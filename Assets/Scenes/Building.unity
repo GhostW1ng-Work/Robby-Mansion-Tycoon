@@ -4230,6 +4230,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: a3e08b4906b743b48b58809c05f0aaab, type: 3}
     - target: {fileID: 6285509458354382982, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: _effect
+      value: 
+      objectReference: {fileID: 19828324, guid: 1c417f6a98778594d92a7a8883ede96e, type: 3}
+    - target: {fileID: 6285509458354382982, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: _market
       value: 
       objectReference: {fileID: 348806755}

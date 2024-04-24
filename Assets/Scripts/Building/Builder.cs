@@ -7,6 +7,7 @@ using DG.Tweening;
 public class Builder : MonoBehaviour
 {
     [SerializeField] private PlayerWallet _player;
+    [SerializeField] private ParticleSystem _effect;
     [SerializeField] private AudioClip _sound;
     [SerializeField] private AudioSource _target;
     [SerializeField] private Building[] _buildings;
@@ -64,6 +65,7 @@ public class Builder : MonoBehaviour
         {
             if (wallet.CurrentMoney >= _price[YandexGame.savesData.buildingLevel])
             {
+                Instantiate(_effect, transform.position, Quaternion.identity);
                 BuildCreated?.Invoke();
                 wallet.SpendMoney(_price[YandexGame.savesData.buildingLevel]);
                 YandexGame.savesData.buildingLevel++;
@@ -109,6 +111,7 @@ public class Builder : MonoBehaviour
     {
         _target.PlayOneShot(_sound);
         Building building = _buildings[index - 1];
+
 
         Building creation = Instantiate(building, building.Position, building.Rotation);
         if (creation.IsInteractable)
