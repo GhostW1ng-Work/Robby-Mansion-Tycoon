@@ -1,5 +1,5 @@
 {
-    "idSave": 1290,
+    "idSave": 1639,
     "isFirstSession": false,
     "language": "en",
     "promptDone": false,
@@ -11,10 +11,10 @@
         false
     ],
     "buildingLevel": 79,
-    "playerMoney": 16209,
+    "playerMoney": 103607,
     "currentMultiplier": 1,
     "earnPerSecond": 89,
-    "moneyReceiverCount": 57583,
+    "moneyReceiverCount": 712,
     "isSprint": false,
     "hasMagnet": false,
     "speedBoostBuyed": false,

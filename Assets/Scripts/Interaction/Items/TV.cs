@@ -6,6 +6,7 @@ public class TV : Interactable
     [SerializeField] private MeshRenderer _screen;
     [SerializeField] private Material _enableMaterial;
     [SerializeField] private Material _disableMaterial;
+    [SerializeField] private bool _hasSound = false;
 
     private bool _enabled = false;
 
@@ -21,12 +22,14 @@ public class TV : Interactable
         if(_enabled)
         {
             _screen.material = _enableMaterial;
-            _audioSource.Play();
+            if(_hasSound)
+                _audioSource.Play();
         }
         else
         {
-            _audioSource.Stop();
             _screen.material = _disableMaterial;
+            if (_hasSound)
+                _audioSource.Stop();
         }
     }
 }

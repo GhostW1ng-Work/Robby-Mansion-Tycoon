@@ -141,6 +141,7 @@ MonoBehaviour:
   _screen: {fileID: 6210877765794068460}
   _enableMaterial: {fileID: 2100000, guid: ec3aef968e8b7cd4dbde72f86144a923, type: 2}
   _disableMaterial: {fileID: 2100000, guid: 7785b59e0c564f34e8f6c6373c14b3c5, type: 2}
+  _hasSound: 1
 --- !u!82 &2397333727915688527
 AudioSource:
   m_ObjectHideFlags: 0
@@ -197,7 +198,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
