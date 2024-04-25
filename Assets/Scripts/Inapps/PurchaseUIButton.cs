@@ -3,10 +3,12 @@ using YG.Utils.Pay;
 using YG;
 using UnityEngine.UI;
 using GameAnalyticsSDK;
+using TMPro;
 
 public class PurchaseUIButton : MonoBehaviour
 {
     [SerializeField] private string _id;
+    [SerializeField] private TMP_Text _yanText;
 
     private Button _button;
 
@@ -23,6 +25,12 @@ public class PurchaseUIButton : MonoBehaviour
     private void OnDisable()
     {
         _button.onClick.RemoveListener(OnClick);
+    }
+
+    private void Start()
+    {
+        Purchase purchase =  YandexGame.PurchaseByID(_id);
+        _yanText.text = purchase.priceValue;
     }
 
     private void OnClick()
