@@ -1,5 +1,5 @@
 {
-  "idSave": 28,
+  "idSave": 153,
   "isFirstSession": false,
   "language": "en",
   "promptDone": false,
@@ -10,23 +10,23 @@
     true,
     false
   ],
-  "earnedMoney": 130,
+  "earnedMoney": 583,
   "buildingLevel": 0,
-  "playerMoney": 130,
+  "playerMoney": 583,
   "currentMultiplier": 1,
-  "earnPerSecond": 10,
-  "moneyReceiverCount": 150,
+  "earnPerSecond": 31,
+  "moneyReceiverCount": 1364,
   "isSprint": false,
   "hasMagnet": false,
   "speedBoostBuyed": false,
   "magnetBoostBuyed": false,
   "doubleMoneyBoostBuyed": false,
-  "livingRoomLevel": 0,
-  "bedroomLevel": 0,
-  "bathroomLevel": 0,
+  "livingRoomLevel": 9,
+  "bedroomLevel": 7,
+  "bathroomLevel": 3,
   "kitchenLevel": 0,
   "arcadeLevel": 0,
   "gymLevel": 0,
   "musicLevel": 0,
-  "libraryLevel": 0
+  "libraryLevel": 2
 }
