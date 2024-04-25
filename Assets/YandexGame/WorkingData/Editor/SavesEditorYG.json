@@ -1,0 +1,31 @@
+{
+    "idSave": 704,
+    "isFirstSession": false,
+    "language": "en",
+    "promptDone": false,
+    "money": 1,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ],
+    "buildingLevel": 0,
+    "playerMoney": 27404,
+    "currentMultiplier": 1,
+    "earnPerSecond": 83,
+    "moneyReceiverCount": 1577,
+    "isSprint": false,
+    "hasMagnet": false,
+    "speedBoostBuyed": false,
+    "magnetBoostBuyed": false,
+    "doubleMoneyBoostBuyed": false,
+    "livingRoomLevel": 11,
+    "bedroomLevel": 11,
+    "bathroomLevel": 11,
+    "kitchenLevel": 0,
+    "arcadeLevel": 8,
+    "gymLevel": 9,
+    "musicLevel": 9,
+    "libraryLevel": 14
+}

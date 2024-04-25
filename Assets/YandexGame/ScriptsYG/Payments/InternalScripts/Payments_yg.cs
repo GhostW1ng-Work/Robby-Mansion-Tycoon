@@ -149,7 +149,7 @@ namespace YG
             Purchase purchase = PurchaseByID(id);
             int price = int.Parse(purchase.priceValue);
             GameAnalytics.NewDesignEvent("Successfull Buy " + id);
-            GameAnalytics.NewBusinessEvent("YAN", price, "inapp", id, "yandex");
+            GameAnalytics.NewBusinessEvent("USD", price, "inapp", id, "yandex");
         }
 
         public void OnPurchaseFailed(string id)

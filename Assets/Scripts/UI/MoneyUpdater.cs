@@ -29,10 +29,6 @@ public class MoneyUpdater : MonoBehaviour
         {
             _text.text = "$" + money.ToString("#,#", CultureInfo.InvariantCulture);
         }
-
-
-/*        else if (money >= 100000)
-            _text.text = $"${(money / 100000):F4}";*/
         else
             _text.text = $"${(decimal)money}";
     }

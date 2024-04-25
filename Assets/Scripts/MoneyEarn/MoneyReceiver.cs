@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using YG;
+using System.Globalization;
 
 public class MoneyReceiver : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class MoneyReceiver : MonoBehaviour
     private void Start()
     {
         _moneyCount = YandexGame.savesData.moneyReceiverCount;
-        _moneyText.text = _moneyCount.ToString();
+        _moneyText.text = _moneyText.text = "$" + _moneyCount.ToString("#,#", CultureInfo.InvariantCulture);
     }
 
     private void OnEnable()
@@ -34,7 +35,7 @@ public class MoneyReceiver : MonoBehaviour
             _target.PlayOneShot(_sound);
             wallet.AddMoney(_moneyCount);
             _moneyCount = 0;
-            _moneyText.text = _moneyCount.ToString();
+            _moneyText.text = _moneyText.text = "$" + _moneyCount.ToString("#,#", CultureInfo.InvariantCulture);
             YandexGame.savesData.moneyReceiverCount = _moneyCount;
             YandexGame.SaveProgress();
         }
@@ -45,7 +46,7 @@ public class MoneyReceiver : MonoBehaviour
         if(!hasMagnet)
         {
             _moneyCount += earnedMoney;
-            _moneyText.text = _moneyCount.ToString();
+            _moneyText.text = _moneyText.text = "$" + _moneyCount.ToString("#,#", CultureInfo.InvariantCulture);
             YandexGame.savesData.moneyReceiverCount = _moneyCount;
             YandexGame.SaveProgress();
         }

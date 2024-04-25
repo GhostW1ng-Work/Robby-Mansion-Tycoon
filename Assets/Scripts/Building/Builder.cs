@@ -561,7 +561,7 @@ public class Builder : MonoBehaviour
 
     private void Build(int index)
     {
-        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Undefined, "Room " + _room.ToString() + " with index " + index.ToString() + " builded");
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Room " + _room.ToString() + " with index " + index.ToString() + " builded");
         _target.PlayOneShot(_sound);
         Building building = _buildings[index - 1];
 
