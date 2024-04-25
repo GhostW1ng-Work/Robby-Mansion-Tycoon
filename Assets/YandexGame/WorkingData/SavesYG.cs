@@ -29,6 +29,16 @@ namespace YG
         public bool speedBoostBuyed = false;
         public bool magnetBoostBuyed = false;
         public bool doubleMoneyBoostBuyed = false;
+
+        //Комнаты
+        public int livingRoomLevel = 0;
+        public int bedroomLevel = 0;
+        public int bathroomLevel = 0;
+        public int kitchenLevel = 0;
+        public int arcadeLevel = 0;
+        public int gymLevel = 0;
+        public int musicLevel = 0;
+        public int libraryLevel = 0;
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
