@@ -146,8 +146,10 @@ namespace YG
             PurchaseByID(id).consumed = true;
             PurchaseSuccess?.Invoke();
             PurchaseSuccessEvent?.Invoke(id);
+
             Purchase purchase = PurchaseByID(id);
             int price = int.Parse(purchase.priceValue);
+
             GameAnalytics.NewDesignEvent("Successfull Buy " + id);
             GameAnalytics.NewBusinessEvent("USD", price, "inapp", id, "yandex");
         }

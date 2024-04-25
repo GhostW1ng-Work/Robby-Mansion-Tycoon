@@ -7,6 +7,7 @@ public class PlayerWallet : MonoBehaviour
     [SerializeField] private MoneyEarner _earner;
 
     private int _currentMoney;
+    private int _earnedMoney;
 
     public int CurrentMoney => _currentMoney;
 
@@ -14,6 +15,7 @@ public class PlayerWallet : MonoBehaviour
 
     private void Start()
     {
+        _earnedMoney = YandexGame.savesData.earnedMoney;
         _currentMoney = YandexGame.savesData.playerMoney;
         MoneyChanged?.Invoke(_currentMoney);
     }
@@ -31,8 +33,11 @@ public class PlayerWallet : MonoBehaviour
     public void AddMoney(int money)
     {
         _currentMoney += money;
+        _earnedMoney += money;
         MoneyChanged?.Invoke(_currentMoney);
+        YandexGame.savesData.earnedMoney = _earnedMoney;
         YandexGame.savesData.playerMoney = _currentMoney;
+        YandexGame.NewLeaderboardScores("earnedMoney", _earnedMoney);
         YandexGame.SaveProgress();
     }
 
