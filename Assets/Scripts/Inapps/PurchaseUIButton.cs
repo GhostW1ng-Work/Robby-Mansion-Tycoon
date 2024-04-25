@@ -2,6 +2,7 @@ using UnityEngine;
 using YG.Utils.Pay;
 using YG;
 using UnityEngine.UI;
+using GameAnalyticsSDK;
 
 public class PurchaseUIButton : MonoBehaviour
 {
@@ -28,5 +29,6 @@ public class PurchaseUIButton : MonoBehaviour
     {
         Purchase purchase = YandexGame.PurchaseByID(_id);
         YandexGame.BuyPayments(purchase.id);
+        GameAnalytics.NewDesignEvent("Click to " + purchase.id);
     }
 }

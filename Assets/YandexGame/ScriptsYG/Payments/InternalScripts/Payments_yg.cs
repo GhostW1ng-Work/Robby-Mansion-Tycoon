@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameAnalyticsSDK;
+using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using YG.Utils.Pay;
@@ -145,6 +146,10 @@ namespace YG
             PurchaseByID(id).consumed = true;
             PurchaseSuccess?.Invoke();
             PurchaseSuccessEvent?.Invoke(id);
+            Purchase purchase = PurchaseByID(id);
+            int price = int.Parse(purchase.priceValue);
+            GameAnalytics.NewDesignEvent("Successfull Buy " + id);
+            GameAnalytics.NewBusinessEvent("YAN", price, "inapp", id, "yandex");
         }
 
         public void OnPurchaseFailed(string id)
