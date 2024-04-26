@@ -1,11 +1,13 @@
 using Cinemachine;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using YG;
 
 public class Interactor : MonoBehaviour
 {
     [SerializeField] private StarterAssets.ThirdPersonController _personController;
+    [SerializeField] private TMP_Text _interactionText;
     [SerializeField] private CinemachineBrain _brains;
     [SerializeField] private float _range;
     [SerializeField] private CanvasGroup _button;
@@ -15,6 +17,7 @@ public class Interactor : MonoBehaviour
 
     private void Start()
     {
+        _interactionText.alpha = 0;
         _button.alpha = 0;
         _button.interactable = false;
         _button.blocksRaycasts = false;
@@ -28,6 +31,7 @@ public class Interactor : MonoBehaviour
         {
             if (hit.collider.TryGetComponent(out Interactable interactable))
             {
+                _interactionText.alpha = 1;
                 Target = interactable;
                 if (YandexGame.EnvironmentData.isDesktop)
                 {
@@ -50,20 +54,20 @@ public class Interactor : MonoBehaviour
                     _button.blocksRaycasts = true;
                 }
             }
-        }
-
-        if(Target != null)
-        {
-            if(Vector3.Distance(transform.position, Target.transform.position) > _range)
+            else
             {
-                if (YandexGame.EnvironmentData.isMobile)
-                {
+                    _interactionText.alpha = 0;
+                    if (YandexGame.EnvironmentData.isMobile)
+                    {
                         _button.alpha = 0;
                         _button.interactable = false;
                         _button.blocksRaycasts = false;
                         _interactButton.SetTarget(null);
-                }
-                Target = null;
+
+                    }
+                    Target = null;
+                
+     
             }
         }
     }
