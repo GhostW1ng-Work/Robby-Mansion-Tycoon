@@ -40,6 +40,11 @@ namespace YG
         public int gymLevel = 0;
         public int musicLevel = 0;
         public int libraryLevel = 0;
+
+        //Скины
+        public bool robotSkinIsBuyed = false;
+        public bool supermanSkinIsBuyed = false;
+        public Skins skin = Skins.Standart;
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны

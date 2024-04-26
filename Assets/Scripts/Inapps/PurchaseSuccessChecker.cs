@@ -67,6 +67,14 @@ public class PurchaseSuccessChecker : MonoBehaviour
                 _input.SetSprint();
                 _rewardBoosters.DeleteBooster(0);
                 break;
+            case "superman":
+                YandexGame.savesData.supermanSkinIsBuyed = true;
+                YandexGame.SaveProgress();
+                break;
+            case "robot":
+                YandexGame.savesData.robotSkinIsBuyed = true;
+                YandexGame.SaveProgress();
+                break;
         }
     }
 }

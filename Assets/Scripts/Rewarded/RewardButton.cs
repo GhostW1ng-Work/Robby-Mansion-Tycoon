@@ -1,3 +1,4 @@
+using GameAnalyticsSDK;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -41,6 +42,7 @@ public abstract class RewardButton : MonoBehaviour
     protected void OnClick()
     {
         YandexGame.RewVideoShow(Id);
+        GameAnalytics.NewAdEvent(GAAdAction.Clicked, GAAdType.RewardedVideo, "yandex", Id.ToString());
     }
 
     public virtual void Boost(float seconds)
@@ -84,6 +86,7 @@ public abstract class RewardButton : MonoBehaviour
         if (id == Id)
         {
             Boost(BoostTime);
+            GameAnalytics.NewAdEvent(GAAdAction.RewardReceived, GAAdType.RewardedVideo, "yandex", Id.ToString());
         }
     }
 
