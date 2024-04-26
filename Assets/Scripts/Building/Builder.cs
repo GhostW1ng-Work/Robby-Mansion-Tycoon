@@ -665,6 +665,8 @@ public class Builder : MonoBehaviour
         Building building = _buildings[index - 1];
 
         Building creation = Instantiate(building, building.Position, building.Rotation);
+        creation.transform.DOScale(0.001f, 0);
+        creation.transform.DOScale(creation.TargetScale, 0.3f);
         if (creation.IsInteractable)
         {
             Interactable interactable = creation.GetComponent<Interactable>();
