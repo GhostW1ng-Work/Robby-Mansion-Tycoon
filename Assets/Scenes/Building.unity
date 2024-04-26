@@ -3506,6 +3506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: sada
+  _moneyEarner: {fileID: 164153167}
   _skin: 0
   _yanIcon: {fileID: 0}
   _priceText: {fileID: 939174048}
@@ -5620,6 +5621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: superman
+  _moneyEarner: {fileID: 164153167}
   _skin: 2
   _yanIcon: {fileID: 226273867}
   _priceText: {fileID: 856276899}
@@ -11816,6 +11818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: robot
+  _moneyEarner: {fileID: 164153167}
   _skin: 1
   _yanIcon: {fileID: 1228932112}
   _priceText: {fileID: 927616562}

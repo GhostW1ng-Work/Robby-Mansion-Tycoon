@@ -15,6 +15,7 @@ public enum Skins
 public class PurchaseSkin : MonoBehaviour
 {
     [SerializeField] private string _id;
+    [SerializeField] private MoneyEarner _moneyEarner;
     [SerializeField] private Skins _skin;
     [SerializeField] private Image _yanIcon;
     [SerializeField] private TMP_Text _priceText;
@@ -153,6 +154,7 @@ public class PurchaseSkin : MonoBehaviour
                     foreach (var renderer in _renderer)
                     {
                         renderer.material = _material;
+
                         YandexGame.savesData.skin = Skins.Robot;
                         YandexGame.SaveProgress();
                     }
@@ -194,6 +196,15 @@ public class PurchaseSkin : MonoBehaviour
     {
         if (_id == id)
         {
+            switch (_id)
+            {
+                case "robot":
+                    _moneyEarner.IncreaseEarnPerSecond(5);
+                    break;
+                case "superman":
+                    _moneyEarner.IncreaseEarnPerSecond(10);
+                    break;
+            }
             switch (YandexGame.lang)
             {
                 case "en":

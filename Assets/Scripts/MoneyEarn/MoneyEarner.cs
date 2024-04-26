@@ -53,6 +53,14 @@ public class MoneyEarner : MonoBehaviour
         YandexGame.SaveProgress();
     }
 
+    public void IncreaseEarnPerSecond(int sum)
+    {
+        _currentEarnPerSecond += sum;
+        LevelIncreased?.Invoke();
+        YandexGame.savesData.earnPerSecond = _currentEarnPerSecond;
+        YandexGame.SaveProgress();
+    }
+
     private void OnBuildCreated()
     {
         IncreaseLevel();
