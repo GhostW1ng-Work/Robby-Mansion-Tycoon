@@ -4,6 +4,7 @@ using YG;
 using TMPro;
 using DG.Tweening;
 using GameAnalyticsSDK;
+using System.Globalization;
 
 public enum Rooms
 {
@@ -43,7 +44,15 @@ public class Builder : MonoBehaviour
         {
             case Rooms.LivingRoom:
                 if (YandexGame.savesData.livingRoomLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.livingRoomLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.livingRoomLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.livingRoomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.livingRoomLevel].ToString();
+
+                }
+  
+
 
                 if (YandexGame.savesData.livingRoomLevel == 0)
                 {
@@ -76,7 +85,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Bedroom:
                 if (YandexGame.savesData.bedroomLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.bedroomLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.bedroomLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.bedroomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.bedroomLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.bedroomLevel == 0)
                 {
@@ -109,7 +124,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Arcade:
                 if (YandexGame.savesData.arcadeLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.arcadeLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.arcadeLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.arcadeLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.arcadeLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.arcadeLevel == 0)
                 {
@@ -142,7 +163,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Music:
                 if (YandexGame.savesData.musicLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.musicLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.musicLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.musicLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.musicLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.musicLevel == 0)
                 {
@@ -175,7 +202,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Library:
                 if (YandexGame.savesData.libraryLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.libraryLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.libraryLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.libraryLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.libraryLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.libraryLevel == 0)
                 {
@@ -208,7 +241,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Bathroom:
                 if (YandexGame.savesData.bathroomLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.bathroomLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.bathroomLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.bathroomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.bathroomLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.bathroomLevel == 0)
                 {
@@ -241,7 +280,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.GYM:
                 if (YandexGame.savesData.gymLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.gymLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.gymLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.gymLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.gymLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.gymLevel == 0)
                 {
@@ -274,7 +319,13 @@ public class Builder : MonoBehaviour
                 break;
             case Rooms.Kitchen:
                 if (YandexGame.savesData.kitchenLevel < _price.Length)
-                    _priceText.text = _price[YandexGame.savesData.kitchenLevel].ToString();
+                {
+                    if ((decimal)_price[YandexGame.savesData.kitchenLevel] >= 100000)
+                        _priceText.text = "$" + _price[YandexGame.savesData.kitchenLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                    else
+                        _priceText.text = "$" + _price[YandexGame.savesData.kitchenLevel].ToString();
+
+                }
 
                 if (YandexGame.savesData.kitchenLevel == 0)
                 {
@@ -326,7 +377,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.livingRoomLevel);
                         if (YandexGame.savesData.livingRoomLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.livingRoomLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.livingRoomLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.livingRoomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.livingRoomLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -354,7 +411,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.arcadeLevel);
                         if (YandexGame.savesData.arcadeLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.arcadeLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.arcadeLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.arcadeLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.arcadeLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -382,7 +445,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.libraryLevel);
                         if (YandexGame.savesData.libraryLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.libraryLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.libraryLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.libraryLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.libraryLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -410,7 +479,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.musicLevel);
                         if (YandexGame.savesData.musicLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.musicLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.musicLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.musicLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.musicLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -438,7 +513,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.gymLevel);
                         if (YandexGame.savesData.gymLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.gymLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.gymLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.gymLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.gymLevel].ToString();
+
+                        };
                     }
                     else
                     {
@@ -466,7 +547,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.kitchenLevel);
                         if (YandexGame.savesData.kitchenLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.kitchenLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.kitchenLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.kitchenLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.kitchenLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -494,7 +581,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.bathroomLevel);
                         if (YandexGame.savesData.bathroomLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.bathroomLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.bathroomLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.bathroomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.bathroomLevel].ToString();
+
+                        }
                     }
                     else
                     {
@@ -522,7 +615,13 @@ public class Builder : MonoBehaviour
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.bedroomLevel);
                         if (YandexGame.savesData.bedroomLevel < _price.Length)
-                            _priceText.text = _price[YandexGame.savesData.bedroomLevel].ToString();
+                        {
+                            if ((decimal)_price[YandexGame.savesData.bedroomLevel] >= 100000)
+                                _priceText.text = "$" + _price[YandexGame.savesData.bedroomLevel].ToString("#,#", CultureInfo.InvariantCulture);
+                            else
+                                _priceText.text = "$" + _price[YandexGame.savesData.bedroomLevel].ToString();
+
+                        }
                     }
                     else
                     {

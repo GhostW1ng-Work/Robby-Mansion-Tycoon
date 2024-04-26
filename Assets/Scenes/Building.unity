@@ -1064,6 +1064,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: KitchenBuilder
@@ -1688,6 +1692,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: LibraryBuilder
@@ -2540,6 +2548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: GYMBuilder
@@ -4441,6 +4453,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: MusicBuilder
@@ -4883,26 +4899,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 377716740796149849, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 377716740796149849, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 377716740796149849, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 377716740796149849, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 377716740796149849, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2234950914580155768, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.938
@@ -4947,10 +4943,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mailbox
       objectReference: {fileID: 0}
-    - target: {fileID: 3960931947641205821, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
-      propertyPath: _sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 5f519826782ab254388996130b9a0de2, type: 3}
     - target: {fileID: 3960931947641205821, guid: 9884968e4df34194890dc8b4a557ad1a, type: 3}
       propertyPath: _target
       value: 
@@ -5723,6 +5715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: ArcadeBuilder
@@ -7841,6 +7837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: LivingRoomBuilder
@@ -9031,6 +9031,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: BedroomBulder
@@ -10618,6 +10622,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3293804347604497942, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 942589445191879500, guid: 02fea1fb776e0ad43a5e684a1ab0ce9e, type: 2}
     - target: {fileID: 4870637733538279897, guid: 615ad07a2413a8f4abecea6955abb32e, type: 3}
       propertyPath: m_Name
       value: BathroomBuilder
