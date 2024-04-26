@@ -49,6 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 2.032, y: 1.2414275, z: 54.12}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 3967752949224319461}
+  - {fileID: 8233237771006893767}
+  - {fileID: 8070147277988453458}
 --- !u!1 &2317399251319784376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,6 +1850,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4810812268527088423, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
   m_PrefabInstance: {fileID: 3094623267166196619}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &8070147277988453458 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4975531210262433753, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+  m_PrefabInstance: {fileID: 3094623267166196619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3218342011111014044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2538,6 +2548,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+--- !u!65 &8233237771006893767 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4975531210262433753, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+  m_PrefabInstance: {fileID: 3985392545696715038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8470572861035897401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4810812268527088423, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
@@ -4479,6 +4494,11 @@ PrefabInstance:
 --- !u!4 &3521701984403723547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4810812268527088423, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+  m_PrefabInstance: {fileID: 8222703271170139708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3967752949224319461 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4975531210262433753, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
   m_PrefabInstance: {fileID: 8222703271170139708}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8410676091374317017

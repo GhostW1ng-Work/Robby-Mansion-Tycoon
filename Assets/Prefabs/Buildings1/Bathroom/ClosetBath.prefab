@@ -99,6 +99,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -13.173, y: 1.2300459, z: 58.73}
   _rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 5455237722854607078}
 --- !u!65 &5455237722854607078
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -99,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &8403860229535155685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -219,6 +221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &1882216820842064781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -293,6 +297,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -22, y: 1.2300457, z: 23.04}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 4950293150489999271}
+  - {fileID: 1882216820842064781}
+  - {fileID: 8403860229535155685}
+  - {fileID: 2158782631904569679}
+  - {fileID: 7181160499833410202}
+  - {fileID: 187317476551056743}
+  - {fileID: 6859119196141815153}
 --- !u!1 &4173329839228818948
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &4950293150489999271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -512,6 +527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &6859119196141815153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -632,6 +649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &187317476551056743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -752,6 +771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &7181160499833410202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -872,6 +893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &2158782631904569679
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -49,6 +49,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 2.882, y: 1.2414275, z: 54.12}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 5475033720555580913}
 --- !u!1001 &1797989133382031054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,6 +265,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
+--- !u!65 &5475033720555580913 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 3908676275862311508, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
+  m_PrefabInstance: {fileID: 9062740483520151461}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5582184226832092775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3509065584016404930, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}

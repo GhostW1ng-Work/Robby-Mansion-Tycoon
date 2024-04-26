@@ -183,6 +183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &6634342342264110740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -337,6 +339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -23.84, y: 1.16, z: 44.19}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 6634342342264110740}
 --- !u!1 &8436193349273936373
 GameObject:
   m_ObjectHideFlags: 0

@@ -49,6 +49,9 @@ MonoBehaviour:
   _position: {x: -8.674, y: 1.1340003, z: 29.314}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 0
+  _colliders:
+  - {fileID: 6478299748290294220}
+  - {fileID: 7808065932821198203}
 --- !u!1 &1962793485908071834
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +156,7 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 1
+  _colliders: []
 --- !u!65 &6478299748290294220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -391,6 +395,7 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 1
+  _colliders: []
 --- !u!65 &7808065932821198203
 BoxCollider:
   m_ObjectHideFlags: 0

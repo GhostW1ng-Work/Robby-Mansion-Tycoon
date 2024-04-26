@@ -100,6 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &3998638840227141495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -252,6 +254,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -22.826366, y: 1.136, z: 45.13446}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 3998638840227141495}
+  - {fileID: 1130791249830570267}
 --- !u!1 &5091212069387158492
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &1130791249830570267
 BoxCollider:
   m_ObjectHideFlags: 0

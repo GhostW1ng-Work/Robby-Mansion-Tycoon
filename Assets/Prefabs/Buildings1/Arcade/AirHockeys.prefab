@@ -99,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &2815129335689891896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -219,6 +221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &3323405028874884265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -339,6 +343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders: []
 --- !u!65 &3606405380367734165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -409,3 +415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -8.674, y: 1.1340003, z: 29.314}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 3606405380367734165}
+  - {fileID: 2815129335689891896}
+  - {fileID: 3323405028874884265}

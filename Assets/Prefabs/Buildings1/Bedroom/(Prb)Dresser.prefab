@@ -404,6 +404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -18.27, y: 1.2300454, z: 51.531}
   _rotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 7312685843337070704}
 --- !u!1 &7380606125077839194
 GameObject:
   m_ObjectHideFlags: 0

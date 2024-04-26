@@ -222,6 +222,7 @@ MonoBehaviour:
   _position: {x: -6.336799, y: 1.2020001, z: 55.094063}
   _rotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
   _isInteractable: 0
+  _colliders: []
 --- !u!114 &83561538313446032
 MonoBehaviour:
   m_ObjectHideFlags: 0

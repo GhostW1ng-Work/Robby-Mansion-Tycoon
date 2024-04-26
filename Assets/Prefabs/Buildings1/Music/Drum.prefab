@@ -408,6 +408,8 @@ MonoBehaviour:
   _position: {x: 0.1500001, y: 1.58, z: 41.81}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 1
+  _colliders:
+  - {fileID: 2981685365877471725}
 --- !u!65 &2981685365877471725
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -52,6 +52,9 @@ MonoBehaviour:
   _position: {x: -6.831, y: 1.6443644, z: 57.236}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 1
+  _colliders:
+  - {fileID: 3595643579288237552}
+  - {fileID: 113128994446903337}
 --- !u!65 &3595643579288237552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -192,6 +195,9 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 0
+  _colliders:
+  - {fileID: 3595643579288237552}
+  - {fileID: 113128994446903337}
 --- !u!65 &113128994446903337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -317,6 +323,9 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 0
+  _colliders:
+  - {fileID: 3595643579288237552}
+  - {fileID: 113128994446903337}
 --- !u!82 &1790167885424666639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -512,3 +521,6 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
   _isInteractable: 0
+  _colliders:
+  - {fileID: 3595643579288237552}
+  - {fileID: 113128994446903337}

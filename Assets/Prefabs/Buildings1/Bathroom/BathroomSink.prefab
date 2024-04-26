@@ -48,6 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -6.831, y: 1.6443644, z: 57.576}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 1788664387103059971}
 --- !u!1001 &4805277410835215208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124,6 +127,11 @@ PrefabInstance:
 --- !u!4 &299560053254059680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5082178109987374536, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+  m_PrefabInstance: {fileID: 4805277410835215208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1788664387103059971 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6520467410152178539, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
   m_PrefabInstance: {fileID: 4805277410835215208}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7396012174842500246

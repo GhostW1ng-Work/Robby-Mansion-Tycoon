@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Building : MonoBehaviour
@@ -5,6 +6,7 @@ public class Building : MonoBehaviour
     [SerializeField] private Vector3 _position;
     [SerializeField] private Quaternion _rotation;
     [SerializeField] private bool _isInteractable = false;
+    [SerializeField] private Collider[] _colliders;
 
     public Vector3 TargetScale { get; private set; }
      
@@ -15,5 +17,23 @@ public class Building : MonoBehaviour
     private void Awake()
     {
         TargetScale = transform.localScale;
+    }
+
+    private void OnEnable()
+    {
+        StartCoroutine(WaitBeforeEnableCollision());
+    }
+
+    private IEnumerator WaitBeforeEnableCollision()
+    {
+        foreach (var collider in _colliders)
+        {
+            collider.enabled = false;
+        }
+        yield return new WaitForSeconds(1);
+        foreach (var collider in _colliders)
+        {
+            collider.enabled = true;
+        }
     }
 }

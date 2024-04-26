@@ -123,6 +123,8 @@ MonoBehaviour:
   _position: {x: 0.20724058, y: 1.506, z: 38.592}
   _rotation: {x: -0.23191768, y: 0, z: 0, w: 0.9727354}
   _isInteractable: 1
+  _colliders:
+  - {fileID: 7556635888910406349}
 --- !u!82 &1802319646333321342
 AudioSource:
   m_ObjectHideFlags: 0

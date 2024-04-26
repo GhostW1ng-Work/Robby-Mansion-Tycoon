@@ -50,6 +50,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _position: {x: -15.47, y: 1.2395356, z: 33.63}
   _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _isInteractable: 0
+  _colliders:
+  - {fileID: 2544808708152681102}
+  - {fileID: 7775853950856645448}
+  - {fileID: 8744122246343109594}
+  - {fileID: 7369255502596217833}
 --- !u!1001 &4444446232986422838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -110,6 +116,11 @@ PrefabInstance:
 --- !u!4 &2224544801239374137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2554372189254719247, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
+  m_PrefabInstance: {fileID: 4444446232986422838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2544808708152681102 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2232978667355008184, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
   m_PrefabInstance: {fileID: 4444446232986422838}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7468233302099838818
@@ -182,6 +193,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2554372189254719247, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
   m_PrefabInstance: {fileID: 7468233302099838818}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &8744122246343109594 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2232978667355008184, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
+  m_PrefabInstance: {fileID: 7468233302099838818}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8436442477587113968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -242,6 +258,11 @@ PrefabInstance:
 --- !u!4 &6225857344215101695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2554372189254719247, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
+  m_PrefabInstance: {fileID: 8436442477587113968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7775853950856645448 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2232978667355008184, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
   m_PrefabInstance: {fileID: 8436442477587113968}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8699257459210942289
@@ -312,5 +333,10 @@ PrefabInstance:
 --- !u!4 &6614393025424875614 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2554372189254719247, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
+  m_PrefabInstance: {fileID: 8699257459210942289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7369255502596217833 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2232978667355008184, guid: 98673c874d992ad4f938ca72f5e1510f, type: 3}
   m_PrefabInstance: {fileID: 8699257459210942289}
   m_PrefabAsset: {fileID: 0}
