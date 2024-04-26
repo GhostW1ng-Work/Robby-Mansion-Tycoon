@@ -31,10 +31,10 @@ public class Interactor : MonoBehaviour
         {
             if (hit.collider.TryGetComponent(out Interactable interactable))
             {
-                _interactionText.alpha = 1;
                 Target = interactable;
                 if (YandexGame.EnvironmentData.isDesktop)
                 {
+                    _interactionText.alpha = 1;
                     if (Input.GetKeyDown(KeyCode.E))
                     {
                         interactable.Interact();
@@ -56,18 +56,21 @@ public class Interactor : MonoBehaviour
             }
             else
             {
-                    _interactionText.alpha = 0;
-                    if (YandexGame.EnvironmentData.isMobile)
-                    {
-                        _button.alpha = 0;
-                        _button.interactable = false;
-                        _button.blocksRaycasts = false;
-                        _interactButton.SetTarget(null);
+                if (YandexGame.EnvironmentData.isMobile)
+                {
+                    _button.alpha = 0;
+                    _button.interactable = false;
+                    _button.blocksRaycasts = false;
+                    _interactButton.SetTarget(null);
 
-                    }
-                    Target = null;
-                
-     
+                }
+                else if(YandexGame.EnvironmentData.isDesktop)
+                {
+                    _interactionText.alpha = 0;
+                }
+                Target = null;
+
+
             }
         }
     }
