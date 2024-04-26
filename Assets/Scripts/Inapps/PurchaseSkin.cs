@@ -8,7 +8,7 @@ public class PurchaseSkin : MonoBehaviour
     [SerializeField] private string _id;
     [SerializeField] private int _price;
     [SerializeField] private Material _material;
-    [SerializeField] private SkinnedMeshRenderer _renderer;
+    [SerializeField] private SkinnedMeshRenderer[] _renderer;
 
     private Button _button;
 
@@ -29,6 +29,9 @@ public class PurchaseSkin : MonoBehaviour
 
     private void OnClick()
     {
-        _renderer.material = _material;
+        foreach (var renderer in _renderer)
+        {
+            renderer.material = _material;
+        }
     }
 }
