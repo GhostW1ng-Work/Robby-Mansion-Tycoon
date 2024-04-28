@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &936999038975108428
 Transform:
@@ -74,6 +74,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dinner Table
       objectReference: {fileID: 0}
+    - target: {fileID: 7086250013163195779, guid: 3534a817cc3f43b4db7424daa4d59e7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7351390645878836905, guid: 3534a817cc3f43b4db7424daa4d59e7f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.08969498
@@ -114,6 +118,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8094519585928037256, guid: 3534a817cc3f43b4db7424daa4d59e7f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094519585928037256, guid: 3534a817cc3f43b4db7424daa4d59e7f, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137,9 +149,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 1056321499559467380, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206508227991302242, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3517465817000159781, guid: ba43438e580714421b77702924702e2b, type: 3}
       propertyPath: m_Name
       value: Ham
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517465817000159781, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728173495677205709, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728173495677205709, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4295128007928967327, guid: ba43438e580714421b77702924702e2b, type: 3}
       propertyPath: m_LocalScale.x
@@ -197,6 +229,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4949115971007377506, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347646898832340551, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770492626548968335, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770492626548968335, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786931332009197518, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786931332009197518, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909224335885672875, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909224335885672875, guid: ba43438e580714421b77702924702e2b, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -215,6 +279,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 1211095513887074794, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2737412387135586305, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.36686134
@@ -259,6 +327,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishFilletCooked
       objectReference: {fileID: 0}
+    - target: {fileID: 3366140265147980475, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636003010138804048, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636003010138804048, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720930023000002869, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720930023000002869, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075578822743918297, guid: 1a8fa040e5c684308b95679dd2c1dcd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -277,9 +369,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 5555843918517350829, guid: c7232173ec62a4648bc000bf0b5baf1a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555843918517350829, guid: c7232173ec62a4648bc000bf0b5baf1a, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6204463763682365560, guid: c7232173ec62a4648bc000bf0b5baf1a, type: 3}
       propertyPath: m_Name
       value: burger_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204463763682365560, guid: c7232173ec62a4648bc000bf0b5baf1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6724294563032353474, guid: c7232173ec62a4648bc000bf0b5baf1a, type: 3}
       propertyPath: m_LocalScale.x
@@ -355,6 +459,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 2641775773880999387, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641775773880999387, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700754509847299006, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700754509847299006, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125480020524251135, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125480020524251135, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566199418107791927, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4670333789320514799, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.25952244
@@ -398,6 +530,18 @@ PrefabInstance:
     - target: {fileID: 5448101533092959829, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
       propertyPath: m_Name
       value: SteakCooked
+      objectReference: {fileID: 0}
+    - target: {fileID: 5448101533092959829, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337507793579936786, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494854539579647236, guid: 5a822460c94534437b7260f2b7c766dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -461,6 +605,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: drink_004
       objectReference: {fileID: 0}
+    - target: {fileID: 5233414496755891495, guid: c2004775e0ce89f48af3e88e6f9555a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025867643446893810, guid: c2004775e0ce89f48af3e88e6f9555a4, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025867643446893810, guid: c2004775e0ce89f48af3e88e6f9555a4, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -479,6 +635,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 17698007616273291, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 438032814907245965, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4
@@ -539,6 +699,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: WholeBird
       objectReference: {fileID: 0}
+    - target: {fileID: 963739717108670263, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022962143050369503, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022962143050369503, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2526659193860572528, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686097760671804518, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135653682350745348, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740088619866498686, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740088619866498686, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613935389653299927, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613935389653299927, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409647601807365723, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759622653969890068, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759622653969890068, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092349460098716857, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092349460098716857, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187585279250483932, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187585279250483932, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898048023397891741, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898048023397891741, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627137847439377237, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728436144438920560, guid: a80c00c662fe74118b43ad9cbb58853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -560,6 +804,18 @@ PrefabInstance:
     - target: {fileID: 4361599012413369181, guid: e06bb8df4b075c54f891c31661e485d5, type: 3}
       propertyPath: m_Name
       value: Mug
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361599012413369181, guid: e06bb8df4b075c54f891c31661e485d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605353276503227573, guid: e06bb8df4b075c54f891c31661e485d5, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605353276503227573, guid: e06bb8df4b075c54f891c31661e485d5, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7369922229246415335, guid: e06bb8df4b075c54f891c31661e485d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -624,9 +880,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 3187666829165987837, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3187666829165987837, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4831848365070257267, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
       propertyPath: m_Name
       value: BreadLoaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831848365070257267, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918817141213332294, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5207846516456216265, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
       propertyPath: m_LocalScale.x
@@ -683,6 +955,18 @@ PrefabInstance:
     - target: {fileID: 5207846516456216265, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128722695314270189, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128722695314270189, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040534473599794978, guid: af155e0a2f2564df784cddcdf02341c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -762,6 +1046,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: sushi_dish_001
       objectReference: {fileID: 0}
+    - target: {fileID: 995936702116461218, guid: 33bd3696e4ffca649b47370f28ae1193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644582797668735863, guid: 33bd3696e4ffca649b47370f28ae1193, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644582797668735863, guid: 33bd3696e4ffca649b47370f28ae1193, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -780,9 +1076,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 5253412455362095921, guid: 894ad6ec8aaa7f14d8d6cea5f753932b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253412455362095921, guid: 894ad6ec8aaa7f14d8d6cea5f753932b, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6045839213114936036, guid: 894ad6ec8aaa7f14d8d6cea5f753932b, type: 3}
       propertyPath: m_Name
       value: sandwich_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045839213114936036, guid: 894ad6ec8aaa7f14d8d6cea5f753932b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6389748155963379806, guid: 894ad6ec8aaa7f14d8d6cea5f753932b, type: 3}
       propertyPath: m_LocalScale.x
@@ -858,6 +1166,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 936999038975108428}
     m_Modifications:
+    - target: {fileID: 214879251683333273, guid: 51d6319d2b9742640a6b2bb01da1dc59, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214879251683333273, guid: 51d6319d2b9742640a6b2bb01da1dc59, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1346659124916531190, guid: 51d6319d2b9742640a6b2bb01da1dc59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.06800175
@@ -901,6 +1217,10 @@ PrefabInstance:
     - target: {fileID: 1872261569430189388, guid: 51d6319d2b9742640a6b2bb01da1dc59, type: 3}
       propertyPath: m_Name
       value: drink_002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872261569430189388, guid: 51d6319d2b9742640a6b2bb01da1dc59, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

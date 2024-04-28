@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1899880745579630715
 Transform:
@@ -68,6 +68,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899880745579630715}
     m_Modifications:
+    - target: {fileID: 2450077230517324044, guid: 69fec38a88212144f881408fd40f5f28, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2450077230517324044, guid: 69fec38a88212144f881408fd40f5f28, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2963317297023112202, guid: 69fec38a88212144f881408fd40f5f28, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5820007
@@ -112,6 +120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cooker
       objectReference: {fileID: 0}
+    - target: {fileID: 3491061750168799175, guid: 69fec38a88212144f881408fd40f5f28, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138,6 +150,10 @@ PrefabInstance:
     - target: {fileID: 3431203949820139065, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
       propertyPath: m_Name
       value: drink_002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431203949820139065, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5453337031097704715, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -177,6 +193,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5453337031097704715, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775925108347736575, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775925108347736575, guid: 5d40a4e0a81250e408101399c33f2e86, type: 3}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -250,6 +274,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4547587468673334476, guid: 1aa47a28f3073dd41be2875f62d248a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -316,6 +344,18 @@ PrefabInstance:
     - target: {fileID: 3590929728066068815, guid: c657ba08e30fa864d9d8f945ce12a024, type: 3}
       propertyPath: m_Name
       value: Pan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3590929728066068815, guid: c657ba08e30fa864d9d8f945ce12a024, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175439787682691395, guid: c657ba08e30fa864d9d8f945ce12a024, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175439787682691395, guid: c657ba08e30fa864d9d8f945ce12a024, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -384,6 +424,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: drink_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6604619101014258273, guid: 99672f4483a1ce64db32f9b106765312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300426185241950653, guid: 99672f4483a1ce64db32f9b106765312, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300426185241950653, guid: 99672f4483a1ce64db32f9b106765312, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -410,6 +462,18 @@ PrefabInstance:
     - target: {fileID: 4211122447981741868, guid: 46c7e4f92d44c9c41aa500a005420171, type: 3}
       propertyPath: m_Name
       value: ketchup_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211122447981741868, guid: 46c7e4f92d44c9c41aa500a005420171, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585415373772772323, guid: 46c7e4f92d44c9c41aa500a005420171, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585415373772772323, guid: 46c7e4f92d44c9c41aa500a005420171, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8716091830645826616, guid: 46c7e4f92d44c9c41aa500a005420171, type: 3}
       propertyPath: m_LocalPosition.x

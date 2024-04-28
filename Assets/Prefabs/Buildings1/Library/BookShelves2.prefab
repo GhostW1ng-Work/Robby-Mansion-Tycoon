@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3910635745452431457
 Transform:
@@ -71,7 +71,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4687497026142059547
 Transform:
@@ -126,7 +126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4604047861178168792
 Transform:
@@ -182,7 +182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8964028410451056627
 Transform:
@@ -238,7 +238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6040136106373829528
 Transform:
@@ -292,6 +292,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -332,6 +348,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -353,6 +373,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -394,6 +430,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -415,6 +455,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -456,6 +512,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -477,6 +537,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -518,6 +594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -539,6 +619,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -579,6 +675,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -642,6 +742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -663,6 +767,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -704,6 +824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -725,6 +849,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -766,6 +906,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -787,6 +931,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -828,6 +988,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -849,6 +1013,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -890,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -911,6 +1095,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -952,6 +1152,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -973,6 +1177,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1014,6 +1234,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1035,6 +1259,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1076,6 +1316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1097,6 +1341,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1137,6 +1397,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1200,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1221,6 +1489,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1261,6 +1545,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1324,6 +1612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1385,6 +1677,10 @@ PrefabInstance:
     - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
       propertyPath: m_Name
       value: Books 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1448,6 +1744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1469,6 +1769,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1509,6 +1825,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1572,6 +1892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1634,6 +1958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1655,6 +1983,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1696,6 +2040,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1717,6 +2065,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1758,6 +2122,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1779,6 +2147,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1820,6 +2204,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1841,6 +2229,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1881,6 +2285,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1944,6 +2352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1965,6 +2377,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2005,6 +2433,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2084,6 +2516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShelvesMediumA
       objectReference: {fileID: 0}
+    - target: {fileID: 6322482340201386914, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2110,6 +2546,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2151,6 +2603,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2172,6 +2628,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2213,6 +2685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2234,6 +2710,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2275,6 +2767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2296,6 +2792,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2337,6 +2849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2358,6 +2874,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2398,6 +2930,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2421,6 +2957,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2460,6 +3012,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2523,6 +3079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2544,6 +3104,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2584,6 +3160,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2647,6 +3227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2668,6 +3252,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2709,6 +3309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2730,6 +3334,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2771,6 +3391,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2792,6 +3416,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2832,6 +3472,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2895,6 +3539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2956,6 +3604,10 @@ PrefabInstance:
     - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
       propertyPath: m_Name
       value: Books 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3019,6 +3671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3040,6 +3696,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3081,6 +3753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3102,6 +3778,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3143,6 +3835,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3164,6 +3860,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3204,6 +3916,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3267,6 +3983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3329,6 +4049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3350,6 +4074,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3391,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3412,6 +4156,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3452,6 +4212,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3515,6 +4279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3577,6 +4345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3598,6 +4370,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3639,6 +4427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3660,6 +4452,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3700,6 +4508,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3763,6 +4575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3784,6 +4600,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3824,6 +4656,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3903,6 +4739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShelvesMediumA
       objectReference: {fileID: 0}
+    - target: {fileID: 6322482340201386914, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3970,6 +4810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4031,6 +4875,10 @@ PrefabInstance:
     - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
       propertyPath: m_Name
       value: Books 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4094,6 +4942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4156,6 +5008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4177,6 +5033,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4217,6 +5089,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4280,6 +5156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4342,6 +5222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4403,6 +5287,10 @@ PrefabInstance:
     - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
       propertyPath: m_Name
       value: Books 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4482,6 +5370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShelvesMediumA
       objectReference: {fileID: 0}
+    - target: {fileID: 6322482340201386914, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4549,6 +5441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4570,6 +5466,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4610,6 +5522,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4633,6 +5549,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4672,6 +5604,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4695,6 +5631,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4735,6 +5687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4756,6 +5712,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4796,6 +5768,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4859,6 +5835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4880,6 +5860,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4920,6 +5916,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4983,6 +5983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5004,6 +6008,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5045,6 +6065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5066,6 +6090,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5106,6 +6146,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5129,6 +6173,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5168,6 +6228,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5247,6 +6311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShelvesMediumA
       objectReference: {fileID: 0}
+    - target: {fileID: 6322482340201386914, guid: adc2831921269f54499f70a8d3a12db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5314,6 +6382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5335,6 +6407,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5375,6 +6463,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5438,6 +6530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5459,6 +6555,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5500,6 +6612,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5521,6 +6637,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5562,6 +6694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5583,6 +6719,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5623,6 +6775,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5686,6 +6842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5707,6 +6867,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5747,6 +6923,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5810,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5872,6 +7056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5893,6 +7081,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5934,6 +7138,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5955,6 +7163,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5996,6 +7220,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6017,6 +7245,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6057,6 +7301,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6120,6 +7368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6141,6 +7393,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6182,6 +7450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6203,6 +7475,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6243,6 +7531,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6306,6 +7598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6327,6 +7623,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6367,6 +7679,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6430,6 +7746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6972052980178623560, guid: ba04e5054e36c8e4aa8e2d643159070d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6451,6 +7771,22 @@ PrefabInstance:
     - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_Name
       value: Books (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6491,6 +7827,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6514,6 +7854,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Books (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 91049404959986919, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177943421703262536, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968806414989767436, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094146492838232860, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6553,6 +7909,10 @@ PrefabInstance:
     - target: {fileID: 7941203050398338080, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499910475584840153, guid: 4f3028befc7f3df46914beab6839f92d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3976673783831327647
 Transform:
@@ -62,6 +62,54 @@ PrefabInstance:
     - target: {fileID: 394471637298666316, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
       propertyPath: m_Name
       value: (Prb)BathroomSink
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095863814455578348, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095863814455578348, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954012608952791953, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954012608952791953, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018467840658508629, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018467840658508629, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245794773943260950, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245794773943260950, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532633534942370252, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532633534942370252, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014936665056308405, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014936665056308405, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5082178109987374536, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
       propertyPath: m_LocalScale.x
@@ -119,6 +167,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6972792376660644509, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972792376660644509, guid: f08e38829d4e1794dbddd4662d67fe05, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -142,6 +198,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3976673783831327647}
     m_Modifications:
+    - target: {fileID: 3027852400323896131, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3027852400323896131, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5342214899916805555, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
       propertyPath: m_Name
       value: (Prb)SoapDispenser
@@ -184,6 +248,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7179627560950600698, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776562595860204330, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776562595860204330, guid: 99c9590c77d64564ab951726dd6481ad, type: 3}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

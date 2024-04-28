@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6618453761642434343
 Transform:
@@ -108,9 +108,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 771080884863169786, guid: f110037a4a25da545a8226a37e765b31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 910774067871325721, guid: f110037a4a25da545a8226a37e765b31, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910774067871325721, guid: f110037a4a25da545a8226a37e765b31, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7045994613112087783, guid: f110037a4a25da545a8226a37e765b31, type: 3}
       propertyPath: m_Name
       value: ArcadeMachineV4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045994613112087783, guid: f110037a4a25da545a8226a37e765b31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -135,6 +151,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6618453761642434343}
     m_Modifications:
+    - target: {fileID: 2772174505904540798, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747591725449969826, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747591725449969826, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5266887625916036940, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8339996
@@ -179,6 +207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArcadeMachineV2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8458414503621615711, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -202,6 +234,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6618453761642434343}
     m_Modifications:
+    - target: {fileID: 2772174505904540798, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747591725449969826, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747591725449969826, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5266887625916036940, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8339996
@@ -246,6 +290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArcadeMachineV2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8458414503621615711, guid: befe9df1e110ff7459fb3de2de4cf946, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -269,6 +317,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6618453761642434343}
     m_Modifications:
+    - target: {fileID: 2077218476717744515, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077218476717744515, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2216735647392027719, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -309,9 +365,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6904227535482150740, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8190115240041040791, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
       propertyPath: m_Name
       value: ArcadeMachineV1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190115240041040791, guid: fa26887408bea5b449bec5e0fac694ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -336,6 +400,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6618453761642434343}
     m_Modifications:
+    - target: {fileID: 1841195795395593924, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841195795395593924, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2543733116086849798, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.244
@@ -380,6 +452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arcade (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4310450599683994226, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391128806039196373, guid: ccb5d68e73f369a4a83d59b11150db19, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -406,6 +486,22 @@ PrefabInstance:
     - target: {fileID: 890372371451093152, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
       propertyPath: m_Name
       value: ArcadeMachineV3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 890372371451093152, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3321978431390185965, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709556856234629709, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709556856234629709, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5877682369316647036, guid: 6ec0482d60ed6ab4e94887217300988a, type: 3}
       propertyPath: m_LocalPosition.x

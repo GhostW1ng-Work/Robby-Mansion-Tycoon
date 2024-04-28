@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2228545285450146781
 Transform:
@@ -216,6 +216,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2228545285450146781}
     m_Modifications:
+    - target: {fileID: 1604024918147619481, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3509065584016404930, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.44200003
@@ -259,6 +263,14 @@ PrefabInstance:
     - target: {fileID: 4672625840650492612, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
       propertyPath: m_Name
       value: Chess (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672625840650492612, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054489236828422090, guid: 2785d1dc6566b5840a768c972fbf4da4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
