@@ -46,7 +46,10 @@ public class TimerBeforeAdsYG : MonoBehaviour
                 onShowTimer?.Invoke();
                 objSecCounter = 0;
                 if (secondsPanelObject)
+                {
                     secondsPanelObject.SetActive(true);
+                }
+
 
                 StartCoroutine(TimerAdShow());
                 yield break;

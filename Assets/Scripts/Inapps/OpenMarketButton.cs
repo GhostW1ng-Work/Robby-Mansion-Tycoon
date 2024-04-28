@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using System;
+using YG;
 
 public class OpenMarketButton : MonoBehaviour
 {

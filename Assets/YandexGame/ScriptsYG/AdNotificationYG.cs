@@ -44,6 +44,7 @@ public class AdNotificationYG : MonoBehaviour
         notificationObj.SetActive(true);
         isShowNotification = true;
         closeNotifCoroutine = StartCoroutine(CloseNotification());
+        Debug.Log("Рекаламу надо показать");
     }
 
     private IEnumerator CloseNotification()
