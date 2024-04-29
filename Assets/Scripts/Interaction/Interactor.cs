@@ -7,11 +7,14 @@ using YG;
 public class Interactor : MonoBehaviour
 {
     [SerializeField] private StarterAssets.ThirdPersonController _personController;
+    [SerializeField] private CharacterController _characterController;
     [SerializeField] private TMP_Text _interactionText;
     [SerializeField] private CinemachineBrain _brains;
     [SerializeField] private float _range;
     [SerializeField] private CanvasGroup _button;
     [SerializeField] private InteractButton _interactButton;
+
+    private float _interactHeight = 0f;
 
     public Interactable Target { get; private set; }
 
@@ -40,6 +43,7 @@ public class Interactor : MonoBehaviour
                         interactable.Interact();
                         if (interactable.ChangePosition)
                         {
+                            _characterController.height = _interactHeight;
                             _brains.enabled = false;
                             _personController.enabled = false;
                             StartCoroutine(WaitBeforeEnable());

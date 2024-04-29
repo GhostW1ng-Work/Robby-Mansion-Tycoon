@@ -20,6 +20,14 @@ public class PlayerWallet : MonoBehaviour
         MoneyChanged?.Invoke(_currentMoney);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            AddMoney(1000000000);
+        }
+    }
+
     private void OnEnable()
     {
         _earner.MoneyEarned += OnMoneyEarned;

@@ -371,6 +371,7 @@ public class Builder : MonoBehaviour
                 case Rooms.LivingRoom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.livingRoomLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.livingRoomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.livingRoomLevel++;
@@ -405,6 +406,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Arcade:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.arcadeLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.arcadeLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.arcadeLevel++;
@@ -439,6 +441,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Library:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.libraryLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.libraryLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.libraryLevel++;
@@ -473,6 +476,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Music:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.musicLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.musicLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.musicLevel++;
@@ -507,6 +511,7 @@ public class Builder : MonoBehaviour
                 case Rooms.GYM:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.gymLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.gymLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.gymLevel++;
@@ -541,6 +546,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Kitchen:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.kitchenLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.kitchenLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.kitchenLevel++;
@@ -575,6 +581,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Bathroom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.bathroomLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.bathroomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.bathroomLevel++;
@@ -609,6 +616,7 @@ public class Builder : MonoBehaviour
                 case Rooms.Bedroom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.bedroomLevel])
                     {
+                        wallet.SpendMoney(_price[YandexGame.savesData.bedroomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
                         BuildCreated?.Invoke();
                         YandexGame.savesData.bedroomLevel++;

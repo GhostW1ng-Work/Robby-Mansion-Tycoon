@@ -32,28 +32,28 @@ public class PurchaseSuccessChecker : MonoBehaviour
         switch (id)
         {
             case "buy250k":
-                _wallet.AddMoney(250000);
+                _wallet.AddMoney(1000);
                 break;
             case "buy633k":
-                _wallet.AddMoney(633000);
+                _wallet.AddMoney(3500);
                 break;
             case "buy1dot9M":
-                _wallet.AddMoney(1900000);
+                _wallet.AddMoney(7000);
                 break;
             case "buy2dot5M":
-                _wallet.AddMoney(2500000);
+                _wallet.AddMoney(25000);
                 break;
             case "buy6dot3M":
-                _wallet.AddMoney(6300000);
+                _wallet.AddMoney(55000);
                 break;
             case "buy12dot6M":
-                _wallet.AddMoney(12600000);
+                _wallet.AddMoney(72000);
                 break;
             case "buy25dot3M":
-                _wallet.AddMoney(25300000);
+                _wallet.AddMoney(87000);
                 break;
             case "buy54dot3M":
-                _wallet.AddMoney(54300000);
+                _wallet.AddMoney(100000);
                 break;
             case "magnet":
                 _moneyEarner.SetHasMagnet();
