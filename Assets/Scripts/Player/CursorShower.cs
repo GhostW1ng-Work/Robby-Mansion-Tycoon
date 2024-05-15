@@ -5,8 +5,6 @@ public class CursorShower : MonoBehaviour
     [SerializeField] private OpenMarketButton _openButton;
     [SerializeField] private Builder _builder;
 
-    private bool _isLocked = false;
-
     private void OnEnable()
     {
         _openButton.MarketOpened += ShowCursor;
@@ -34,11 +32,11 @@ public class CursorShower : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.P)) 
         {
-            if (_isLocked)
+            if (Cursor.lockState == CursorLockMode.None)
             {
                 HideCursor();
             }
-            else
+            else if(Cursor.lockState == CursorLockMode.Locked)
             {
                 ShowCursor();
             }
@@ -47,13 +45,11 @@ public class CursorShower : MonoBehaviour
 
     private void ShowCursor()
     {
-        _isLocked = true;
         Cursor.lockState = CursorLockMode.None;
     }
 
     private void HideCursor()
     {
-        _isLocked = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 }

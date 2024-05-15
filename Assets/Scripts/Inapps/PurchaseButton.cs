@@ -1,4 +1,5 @@
 using GameAnalyticsSDK;
+using TMPro;
 using UnityEngine;
 using YG;
 using YG.Utils.Pay;
@@ -6,6 +7,7 @@ using YG.Utils.Pay;
 public class PurchaseButton : MonoBehaviour
 {
     [SerializeField] private string _id;
+    [SerializeField] private TMP_Text _priceText;
 
     private void OnEnable()
     {
@@ -19,28 +21,69 @@ public class PurchaseButton : MonoBehaviour
 
     private void Start()
     {
-        switch (_id)
+        if (YandexGame.SDKEnabled)
         {
-            case "magnet":
-                if (YandexGame.savesData.magnetBoostBuyed)
-                {
-                    Destroy(gameObject);
-                }
-                break;
-            case "x2money":
-                if (YandexGame.savesData.doubleMoneyBoostBuyed)
-                {
-                    Destroy(gameObject);
-                }
-                break;
-            case "speedBoost":
-                if (YandexGame.savesData.speedBoostBuyed)
-                {
-                    Destroy(gameObject);
-                }
-                break;
+            switch (_id)
+            {
+                case "magnet":
+                    if (YandexGame.savesData.magnetBoostBuyed)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        Purchase purchase = YandexGame.PurchaseByID(_id);
+                        switch (YandexGame.lang)
+                        {
+                            case "ru":
+                                _priceText.text = purchase.priceValue + " ян";
+                                break;
+                            default:
+                                _priceText.text = purchase.priceValue + " yan";
+                                break;
+                        }
+                    }
+                    break;
+                case "x2money":
+                    if (YandexGame.savesData.doubleMoneyBoostBuyed)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        Purchase purchase = YandexGame.PurchaseByID(_id);
+                        switch (YandexGame.lang)
+                        {
+                            case "ru":
+                                _priceText.text = purchase.priceValue + " ян";
+                                break;
+                            default:
+                                _priceText.text = purchase.priceValue + " yan";
+                                break;
+                        }
+                    }
+                    break;
+                case "speedBoost":
+                    if (YandexGame.savesData.speedBoostBuyed)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        Purchase purchase = YandexGame.PurchaseByID(_id);
+                        switch (YandexGame.lang)
+                        {
+                            case "ru":
+                                _priceText.text = purchase.priceValue + " ян";
+                                break;
+                            default:
+                                _priceText.text = purchase.priceValue + " yan";
+                                break;
+                        }
+                    }
+                    break;
+            }
         }
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -55,7 +98,7 @@ public class PurchaseButton : MonoBehaviour
 
     private void OnSuccessPurchase(string id)
     {
-        if(_id == id)
+        if (_id == id)
             Destroy(gameObject);
     }
 }

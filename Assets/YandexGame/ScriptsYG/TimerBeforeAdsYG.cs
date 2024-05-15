@@ -1,10 +1,16 @@
-﻿using System.Collections;
+﻿using StarterAssets;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using YG;
 
 public class TimerBeforeAdsYG : MonoBehaviour
 {
+    [SerializeField] private PlayerInput _input;
+    [SerializeField] private Canvas[] _intrefaces;
+    [SerializeField] private Canvas _mobileInput;
+
     [SerializeField,
         Tooltip("Объект таймера перед показом рекламы. Он будет активироваться и деактивироваться в нужное время.")]
     private GameObject secondsPanelObject;
@@ -43,6 +49,17 @@ public class TimerBeforeAdsYG : MonoBehaviour
         {
             if (YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
             {
+                if (YandexGame.EnvironmentData.isMobile)
+                {
+                    _mobileInput.gameObject.SetActive(false);
+                }
+                _input.enabled = false;
+                Time.timeScale = 0;
+                foreach (var item in _intrefaces)
+                {
+                    item.gameObject.SetActive(false);
+
+                }
                 onShowTimer?.Invoke();
                 objSecCounter = 0;
                 if (secondsPanelObject)
@@ -109,9 +126,20 @@ public class TimerBeforeAdsYG : MonoBehaviour
 
     private void RestartTimer()
     {
+
+        if (YandexGame.EnvironmentData.isMobile)
+        {
+            _mobileInput.gameObject.SetActive(true);
+        }
+        _input.enabled = true;
+        foreach (var item in _intrefaces)
+        {
+            item.gameObject.SetActive(true);
+        }
         secondsPanelObject.SetActive(false);
         onHideTimer?.Invoke();
         objSecCounter = 0;
+        Cursor.lockState = CursorLockMode.Locked;
         StartCoroutine(CheckTimerAd());
     }
 }

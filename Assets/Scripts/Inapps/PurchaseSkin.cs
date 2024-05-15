@@ -34,7 +34,7 @@ public class PurchaseSkin : MonoBehaviour
         switch (_skin)
         {
             case Skins.Robot:
-                if (YandexGame.savesData.robotSkinIsBuyed)
+                if (!YandexGame.savesData.robotSkinIsBuyed)
                 {
                     Purchase purchase = YandexGame.PurchaseByID(_id);
                     _priceText.text = purchase.priceValue;
@@ -61,7 +61,7 @@ public class PurchaseSkin : MonoBehaviour
                 }
                 break;
             case Skins.Superman:
-                if (YandexGame.savesData.supermanSkinIsBuyed)
+                if (!YandexGame.savesData.supermanSkinIsBuyed)
                 {
                     Purchase purchase = YandexGame.PurchaseByID(_id);
                     _priceText.text = purchase.priceValue;

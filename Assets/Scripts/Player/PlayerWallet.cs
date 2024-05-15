@@ -19,7 +19,13 @@ public class PlayerWallet : MonoBehaviour
         _currentMoney = YandexGame.savesData.playerMoney;
         MoneyChanged?.Invoke(_currentMoney);
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            AddMoney(200000);
+        }
+    }
     private void OnEnable()
     {
         _earner.MoneyEarned += OnMoneyEarned;
