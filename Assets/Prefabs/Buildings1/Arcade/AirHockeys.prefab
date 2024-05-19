@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7523949271444664935}
   - component: {fileID: 1900535394173180104}
   - component: {fileID: 2815129335689891896}
+  - component: {fileID: 6997130570655279223}
   m_Layer: 0
   m_Name: air_hockey_001 (3)
   m_TagString: Untagged
@@ -122,6 +123,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.055062, y: 1.3527193, z: 1.4759594}
   m_Center: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+--- !u!205 &6997130570655279223
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905277763353166845}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+  m_Size: 2.055062
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.8172366
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7523949271444664935}
+  - screenRelativeHeight: 0.6849414
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7523949271444664935}
+  - screenRelativeHeight: 0.55436516
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7523949271444664935}
+  m_Enabled: 1
 --- !u!1 &2927117947594134016
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +163,7 @@ GameObject:
   - component: {fileID: 2217630072504801465}
   - component: {fileID: 3412350142352062968}
   - component: {fileID: 3323405028874884265}
+  - component: {fileID: 7050617234899694341}
   m_Layer: 0
   m_Name: air_hockey_001 (4)
   m_TagString: Untagged
@@ -244,6 +273,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.055062, y: 1.3527193, z: 1.4759594}
   m_Center: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+--- !u!205 &7050617234899694341
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927117947594134016}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+  m_Size: 2.055062
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.8172366
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2217630072504801465}
+  - screenRelativeHeight: 0.6849414
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2217630072504801465}
+  - screenRelativeHeight: 0.55436516
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2217630072504801465}
+  m_Enabled: 1
 --- !u!1 &5460595374896855114
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,6 +313,7 @@ GameObject:
   - component: {fileID: 3103859959593387958}
   - component: {fileID: 7372397926513648656}
   - component: {fileID: 3606405380367734165}
+  - component: {fileID: 9095808099184917470}
   m_Layer: 0
   m_Name: air_hockey_001
   m_TagString: Untagged
@@ -366,6 +423,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.055062, y: 1.3527193, z: 1.4759594}
   m_Center: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+--- !u!205 &9095808099184917470
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460595374896855114}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00003194809, y: 0.3492874, z: 0.0007932186}
+  m_Size: 2.055062
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.8172366
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3103859959593387958}
+  - screenRelativeHeight: 0.6849414
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3103859959593387958}
+  - screenRelativeHeight: 0.55436516
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3103859959593387958}
+  m_Enabled: 1
 --- !u!1 &8211032556396948507
 GameObject:
   m_ObjectHideFlags: 0

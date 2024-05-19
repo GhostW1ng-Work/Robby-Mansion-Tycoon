@@ -23,7 +23,7 @@ namespace YG
         public int buildingLevel = 0;
         public int playerMoney = 0;
         public int currentMultiplier = 1;
-        public int earnPerSecond = 10;
+        public int earnPerSecond = 0;
         public int moneyReceiverCount = 0;
         public bool isSprint = false;
         public bool hasMagnet = false;

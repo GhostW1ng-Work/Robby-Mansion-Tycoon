@@ -36,7 +36,7 @@ public class Builder : MonoBehaviour
     public event Action MarketOpened;
     public event Action MarketClosed;
 
-    public static event Action BuildCreated;
+    public static event Action<int> BuildCreated;
 
     private void Start()
     {
@@ -371,9 +371,10 @@ public class Builder : MonoBehaviour
                 case Rooms.LivingRoom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.livingRoomLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.livingRoomLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.livingRoomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.livingRoomLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.livingRoomLevel);
@@ -406,9 +407,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Arcade:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.arcadeLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.arcadeLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.arcadeLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.arcadeLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.arcadeLevel);
@@ -441,9 +443,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Library:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.libraryLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.libraryLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.libraryLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.libraryLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.libraryLevel);
@@ -476,9 +479,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Music:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.musicLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.musicLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.musicLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.musicLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.musicLevel);
@@ -511,9 +515,10 @@ public class Builder : MonoBehaviour
                 case Rooms.GYM:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.gymLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.gymLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.gymLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.gymLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.gymLevel);
@@ -546,9 +551,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Kitchen:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.kitchenLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.kitchenLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.kitchenLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.kitchenLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.kitchenLevel);
@@ -581,9 +587,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Bathroom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.bathroomLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.bathroomLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.bathroomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.bathroomLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.bathroomLevel);
@@ -616,9 +623,10 @@ public class Builder : MonoBehaviour
                 case Rooms.Bedroom:
                     if (wallet.CurrentMoney >= _price[YandexGame.savesData.bedroomLevel])
                     {
+                        Building building = _buildings[YandexGame.savesData.bedroomLevel];
                         wallet.SpendMoney(_price[YandexGame.savesData.bedroomLevel]);
                         Instantiate(_effect, transform.position, Quaternion.identity);
-                        BuildCreated?.Invoke();
+                        BuildCreated?.Invoke(building.BuildMoney);
                         YandexGame.savesData.bedroomLevel++;
                         YandexGame.SaveProgress();
                         Build(YandexGame.savesData.bedroomLevel);

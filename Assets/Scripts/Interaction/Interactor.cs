@@ -1,4 +1,5 @@
 using Cinemachine;
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -17,6 +18,8 @@ public class Interactor : MonoBehaviour
     private float _interactHeight = 0f;
 
     public Interactable Target { get; private set; }
+
+    public static event Action TargetLost;
 
     private void Start()
     {
@@ -73,7 +76,7 @@ public class Interactor : MonoBehaviour
                     _interactionText.alpha = 0;
                 }
                 Target = null;
-
+                TargetLost?.Invoke();
 
             }
         }

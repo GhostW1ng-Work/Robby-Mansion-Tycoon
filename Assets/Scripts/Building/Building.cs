@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
+    [SerializeField] private int _buildMoney;
     [SerializeField] private Vector3 _position;
     [SerializeField] private Quaternion _rotation;
     [SerializeField] private bool _isInteractable = false;
@@ -13,6 +14,7 @@ public class Building : MonoBehaviour
     public Vector3 Position => _position;
     public Quaternion Rotation => _rotation;
     public bool IsInteractable => _isInteractable;
+    public int BuildMoney => _buildMoney;
 
     private void Awake()
     {
